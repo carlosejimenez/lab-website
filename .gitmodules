@@ -1,0 +1,3 @@
+[submodule "lab-website-theme"]
+	path = lab-website-theme
+	url = git@github.com:carlosejimenez/lab-website-theme.git
