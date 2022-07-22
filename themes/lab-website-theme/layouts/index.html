@@ -15,16 +15,9 @@
 				{{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
 				{{ range $paginator.Pages }}
 				<section class="list-item">
-					<h1 class="title"><a href="{{ .RelPermalink }}">{{.Title}}</a></h1>
-					<time>{{ dateFormat "Jan 2, 2006" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>
-					<br><div class="description">
-						{{ if isset .Params "description" }}
-						{{ .Description }}
-						{{ else }}
-						{{ .Summary }}&hellip;
-						{{ end }}
-					</div>
-					<a class="readmore" href="{{ .RelPermalink }}">Read more ⟶</a>
+					<div class="post-type">{{ .Params.post_type }}</div>
+					<div class="title"><a href="{{ .RelPermalink }}">{{.Title}}</a></div>
+					<time>{{ dateFormat "2006-01-02" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>  <!-- Don't change date format -->
 				</section>
 				{{ end }}
 				{{ template "partials/paginator.html" . }}
