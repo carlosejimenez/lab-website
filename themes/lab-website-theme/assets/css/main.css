@@ -6,6 +6,9 @@
 --hovercolor:#E77500;
 --darkMaincolor: #F58025;
 
+--dark-background-color: #202124;
+--light-background-color: #FFFFFF;
+
 --title-size: 18px;
 
 --post-type-size: 12px;
@@ -20,6 +23,7 @@ html {
   line-height: 1;
 }
 body{
+  background-color: var(--light-background-color);
   display: block;
   margin: 8px;
 }
@@ -59,6 +63,10 @@ a:hover {
     /* background-color: var(--hovercolor); */
     /* color: #fff; */
     background-color: var(--hovercolor);
+}
+
+#dark-mode-toggle:hover {
+  background-color: var(--light-background-color);
 }
 
 ul {
@@ -170,6 +178,8 @@ footer {
   display: flex;
   align-items: center;
   border-bottom: none;
+  padding-top: 15%;
+  padding-bottom: 15%;
 }
 .border {
   margin-left: 0.5rem;
@@ -179,8 +189,8 @@ footer {
 
 /* Common */
 .title {
-  margin-bottom: 0.15em;
   margin-top: 0.15em;
+  margin-bottom: 0.15em;
   font-size: var(--title-size);
   padding: 0;
 }
@@ -241,9 +251,7 @@ justify-content: space-between;
 svg{
   max-height: 15px;
 }
-.soc:hover{
-  color: white;
-}
+
 .draft-label{ 
     color: var(--bordercl);
     text-decoration: none;

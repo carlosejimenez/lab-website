@@ -1,6 +1,10 @@
 body {
   color: white;
-  background-color: #202124;
+  background-color: var(--dark-background-color);
+}
+
+#dark-mode-toggle:hover {
+  background-color: var(--dark-background-color);
 }
 
 ::-moz-selection {
@@ -75,9 +79,7 @@ a {
 .highlight {
   background-color: #333;
 }
-.soc:hover {
-  color: black;
-}
+
 .draft-label {
   color: var(--darkMaincolor);
   background-color: blue;
