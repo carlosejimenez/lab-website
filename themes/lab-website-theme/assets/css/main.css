@@ -195,6 +195,12 @@ footer {
   padding: 0;
 }
 
+.author-list-photo {
+  justify-content: center;
+  border: none;
+  border-radius: 1em;
+}
+
 .list-item {
   margin-bottom: 1em;
 }
