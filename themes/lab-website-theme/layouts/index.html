@@ -17,10 +17,22 @@
 				<section class="list-item">
 					<div class="post-type">{{ .Params.post_type }}</div>
 					<div class="title"><a href="{{ .RelPermalink }}">{{.Title}}</a></div>
-					<time>{{ dateFormat "2006-01-02" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>  <!-- Don't change date format -->
-					{{- range $index, $author := .Params.authors -}}
-						<img src="{{ ($.Site.Params.Authors.Get $author).pic }}" class="author-list-photo" height=20em>{{ ($.Site.Params.Authors.Get $author).name }}</img>
-					{{- end -}}
+					<time>{{ dateFormat "2006-01-02" .Date }} <!-- Don't change date format -->
+						{{ if .Draft }}<span class="draft-label">DRAFT</span>{{ end }}
+						{{- if .Params.authors -}}&bull;&nbsp;{{ end }}
+					</time>
+						{{- range $index, $author := .Params.authors -}}
+							<span class="author-list-badge">
+							<a href="{{ ($.Site.Params.Authors.Get $author).link }}">
+							{{- if ($.Site.Params.Authors.Get $author).pic -}}
+								<img src="{{ ($.Site.Params.Authors.Get $author).pic }}" class="author-list-photo"></img>
+							{{- else -}}
+							<defaultphoto style="font-size: 0.94em">😊</defaultphoto> <!-- default photo -->
+							{{ end }}
+							<span class="author-list-name" margin="0" padding="0">{{ ($.Site.Params.Authors.Get $author).name }}</span></a>
+							</span>
+							&nbsp;
+						{{- end -}}
 				</section>
 				{{ end }}
 				{{ template "partials/paginator.html" . }}

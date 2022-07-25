@@ -21,6 +21,9 @@ params:
       name: Karthik Narasimhan
       link: 'https://www.cs.princeton.edu/~karthikn/'
       pic: 'https://princeton-nlp.github.io/assets/images/people/karthik-photo.jpg'
+    jy1682:
+      name: John Yang
+      link: 'https://john-b-yang.github.io'
 
 menu:
   main:
