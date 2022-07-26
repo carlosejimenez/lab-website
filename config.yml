@@ -3,7 +3,7 @@ languageCode: en-us
 title: Karthik's Language Environment and Reasoning Lab
 theme: lab-website-theme
 params:
-  mode: toggle
+  mode: toggle  # dark mode - {toggle, auto, dark, light}
   social:
     - name: GitHub
       icon: github
@@ -32,4 +32,7 @@ menu:
       weight: 3
     - name: Tags
       url: /tags
+      weight: 5
+    - name: People
+      url: /section/people
       weight: 4
