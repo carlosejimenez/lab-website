@@ -1,6 +1,6 @@
 baseURL: "http://example.org/"
 languageCode: en-us
-title: Karthik's Language Environment and Reasoning Lab
+title: KLEAR
 theme: lab-website-theme
 favicon: favicon.ico
 params:
@@ -35,7 +35,7 @@ params:
     jy1682:
       name: John Yang
       pic: jy1682.jpg
-      link: john-b-yang.github.io
+      link: https://john-b-yang.github.io
       github: john-b-yang
       scholar: https://scholar.google.com/citations?user=71G11ksAAAAJ
       twitter: jyangballin
@@ -96,5 +96,5 @@ menu:
       url: /tags
       weight: 5
     - name: People
-      url: /section/people
+      url: /people
       weight: 4

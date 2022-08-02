@@ -6,11 +6,6 @@
 			{{ partial "head.html" . }}
 			
 			<main class="list">
-				<div class="site-description">
-					{{- if isset .Site.Params "subtitle" -}}
-					<p>{{ .Site.Params.Subtitle | markdownify }}</p>
-					{{- end -}}
-				</div>
 				{{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
 				{{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
 				{{ range $paginator.Pages }}
@@ -18,14 +13,13 @@
 					<div class="post-type">{{ .Params.post_type }}</div>
 					<div class="title"><a href="{{ .RelPermalink }}">{{.Title}}</a></div>
 					<time>{{ dateFormat "2006-01-02" .Date }} <!-- Don't change date format -->
-						{{ if .Draft }}<span class="draft-label">DRAFT</span>{{ end }}
 						{{- if .Params.authors -}}&bull;&nbsp;{{ end }}
 					</time>
 						{{- range $index, $author := .Params.authors -}}
 							<span class="author-list-badge">
 							<a href="{{ ($.Site.Params.Authors.Get $author).link }}">
 							{{- if ($.Site.Params.Authors.Get $author).pic -}}
-								<img src="/static/images/{{ ($.Site.Params.Authors.Get $author).pic }}" class="author-list-photo"></img>
+								<img src="/images/people/{{ ($.Site.Params.Authors.Get $author).pic }}" class="author-list-photo"></img>
 							{{- else -}}
 							<defaultphoto style="font-size: 0.94em">😊</defaultphoto> <!-- default photo -->
 							{{ end }}
