@@ -1,29 +1,91 @@
-baseURL: 'http://example.org/'
+baseURL: "http://example.org/"
 languageCode: en-us
 title: Karthik's Language Environment and Reasoning Lab
 theme: lab-website-theme
+favicon: favicon.ico
 params:
-  mode: toggle  # dark mode - {toggle, auto, dark, light}
+  mode: toggle # dark mode - {toggle, auto, dark, light}
   social:
     - name: GitHub
       icon: github
-      url: 'https://github.com/princeton-nlp'
+      url: https://github.com/princeton-nlp
   authors:
     sarora:
       name: Sanjeev Arora
-      link: 'https://www.cs.princeton.edu/~arora/'
-      pic: 'https://princeton-nlp.github.io/assets/images/people/sanjeev-photo.jpg'
+      pic: sanjeev.jpeg
+      link: https://www.cs.princeton.edu/~arora/
     danqic:
       name: Danqi Chen
-      link: 'https://www.cs.princeton.edu/~danqic/'
-      pic: 'https://princeton-nlp.github.io/assets/images/people/danqi-photo.jpg'
+      pic: danqi.jpeg
+      link: https://www.cs.princeton.edu/~danqic/
     karthikn:
       name: Karthik Narasimhan
-      link: 'https://www.cs.princeton.edu/~karthikn/'
-      pic: 'https://princeton-nlp.github.io/assets/images/people/karthik-photo.jpg'
+      pic: karthikn.jpeg
+      link: https://www.cs.princeton.edu/~karthikn/
+      github: karthikncode
+      scholar: https://scholar.google.com/citations?user=euc0GX4AAAAJ
+      twitter: karthik_r_n
+    carlosej:
+      name: Carlos E. Jimenez
+      pic: carlosej.jpeg
+      link: http://www.carlosejimenez.com/
+      github: carlosejimenez
+      scholar: https://scholar.google.com/citations?user=Ue4wghAAAAAJ
+      twitter: _carlosejimenez
     jy1682:
       name: John Yang
-      link: 'https://john-b-yang.github.io'
+      pic: jy1682.jpg
+      link: john-b-yang.github.io
+      github: john-b-yang
+      scholar: https://scholar.google.com/citations?user=71G11ksAAAAJ
+      twitter: jyangballin
+    asd:
+      name: Ameet Deshpande
+      pic: asd.jpg
+      link: https://ameet-1997.github.io/
+      github: ameet-1997
+      scholar: https://scholar.google.co.in/citations?user=332L1coAAAAJ
+      twitter: AmeetDeshpande_
+    hjwang:
+      name: Austin H. Wang
+      pic: hjwang.png
+      link: https://ahjwang.github.io/
+      github: ahjwang
+      scholar: https://scholar.google.com/citations?user=BB4R2_gAAAAJ
+    jtuyls:
+      name: Jens Tuyls
+      pic: jtuyls.jpeg
+      link: https://jens321.github.io/
+      github: jens321
+      scholar: https://scholar.google.com/citations?user=TPnedXMAAAAJ
+      twitter: JensTuyls
+    hc22:
+      name: Howard Chen
+      pic: hc22.png
+      link: https://howard50b.github.io/
+      github: howard50b
+      scholar: https://scholar.google.com/citations?user=wsNa_W4AAAAJ
+      twitter: __howardchen
+    runzhey:
+      name: Runzhe Yang
+      pic: runzhey.jpeg
+      link: https://runzhe-yang.science/
+      github: runzheyang
+      twitter: RunzheYang
+    shunyuy:
+      name: Shunyu Yao
+      pic: shunyuy.jpeg
+      link: https://ysymyth.github.io/
+      github: ysymyth
+      scholar: https://scholar.google.com/citations?user=qJBXk9cAAAAJ
+      twitter: ShunyuYao12
+    murahari:
+      name: Vishvak Murahari
+      pic: murahari.jpeg
+      link: https://vishvakmurahari.com/
+      github: vmurahari3
+      scholar: https://scholar.google.com/citations?user=Y_NYX7MAAAAJ
+      twitter: VishvakM
 
 menu:
   main:

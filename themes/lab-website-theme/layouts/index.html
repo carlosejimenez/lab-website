@@ -25,7 +25,7 @@
 							<span class="author-list-badge">
 							<a href="{{ ($.Site.Params.Authors.Get $author).link }}">
 							{{- if ($.Site.Params.Authors.Get $author).pic -}}
-								<img src="{{ ($.Site.Params.Authors.Get $author).pic }}" class="author-list-photo"></img>
+								<img src="/static/images/{{ ($.Site.Params.Authors.Get $author).pic }}" class="author-list-photo"></img>
 							{{- else -}}
 							<defaultphoto style="font-size: 0.94em">😊</defaultphoto> <!-- default photo -->
 							{{ end }}
