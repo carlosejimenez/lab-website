@@ -51,13 +51,6 @@ a {
   color: inherit;
 }
 
-.site-description a {
-  color: #ddd;
-}
-.site-description a:hover {
-  color: black;
-}
-
 .tags a {
   border-bottom: 3px solid var(--darkMaincolor);
 }
@@ -80,10 +73,6 @@ a {
   background-color: #333;
 }
 
-.draft-label {
-  color: var(--darkMaincolor);
-  background-color: blue;
-}
 .highlight pre code[class=language-javaScript]::before,
 .highlight pre code[class="language-js"]::before {
   content: "js";
