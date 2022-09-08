@@ -17,12 +17,18 @@
         margin-bottom: 25px;
       "
     >
-      {{- if ($.Site.Params.Authors.Get $person).pic -}}
+      {{- if ($.Site.Params.Authors.Get $person).pic -}} {{ if in
+      ($.Site.Params.Authors.Get $person).pic "/"}}
+      <img
+        style="border: none"
+        src="{{ ($.Site.Params.Authors.Get $person).pic }}"
+      />
+      {{- else -}}
       <img
         style="border: none"
         src="/images/people/{{ ($.Site.Params.Authors.Get $person).pic }}"
       />
-      {{- else -}}
+      {{ end }} {{- else -}}
       <defaultphoto>😊</defaultphoto>
       {{ end }}
       <p>{{ ($.Site.Params.Authors.Get $person).name }}</p>
