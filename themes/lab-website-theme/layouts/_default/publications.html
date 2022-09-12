@@ -7,7 +7,7 @@
 			
 			<main class="list">
 				{{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
-				{{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
+				{{ $paginator := .Paginate (and (where $pages "Params.hidden" "ne" true) (where $pages "Params.post_type" "eq" "publication")) }}
 				{{ range $paginator.Pages }}
 				<section class="list-item">
 					<div class="post-type">{{ .Params.post_type }}</div>

@@ -4,6 +4,19 @@
 		<div>
 			<h1 class="title">{{ .Title }}</h1>
 			<div class="meta">Posted on {{ dateFormat "Jan 2, 2006" .Date }}</div>
+			{{- if eq .Params.post_type "publication" -}}
+			<div style="padding-top:10px;">
+				{{- if .Params.code -}}
+				<a href="{{ .Params.code }}"><i data-feather="code"></i></a>
+				{{ end }}
+				{{- if .Params.link -}}
+				<a href="{{ .Params.link }}"><i data-feather="paperclip"></i></a>
+				{{ end }}
+				{{- if .Params.site -}}
+				<a href="{{ .Params.site }}"><i data-feather="globe"></i></a>
+				{{ end }}
+			</div>
+			{{ end }}
 		</div>
 
 		<section class="body">
