@@ -21,18 +21,22 @@
 					<time>{{ dateFormat "2006-01-02" .Date }} <!-- Don't change date format -->
 						{{- if .Params.authors -}}&bull;&nbsp;{{ end }}
 					</time>
-						{{- range $index, $author := .Params.authors -}}
-							<span class="author-list-badge">
-							<a href="{{ ($.Site.Params.Authors.Get $author).link }}">
+					{{- range $index, $author := .Params.authors -}}
+					<span class="author-list-badge">
+						<a href="{{ ($.Site.Params.Authors.Get $author).link }}">
 							{{- if ($.Site.Params.Authors.Get $author).pic -}}
-								<img src="/images/people/{{ ($.Site.Params.Authors.Get $author).pic }}" class="author-list-photo"></img>
+							<img src="/images/people/{{ ($.Site.Params.Authors.Get $author).pic }}" class="author-list-photo"></img>
 							{{- else -}}
 							<defaultphoto style="font-size: 0.94em">😊</defaultphoto> <!-- default photo -->
 							{{ end }}
-							<span class="author-list-name" margin="0" padding="0">{{ ($.Site.Params.Authors.Get $author).name }}</span></a>
-							</span>
-							&nbsp;
-						{{- end -}}
+							<span class="author-list-name" margin="0" padding="0">{{ ($.Site.Params.Authors.Get $author).name }}</span>
+						</a>
+					</span>
+					&nbsp;
+					{{- end -}}
+					<div style="margin-top: 0.2em;">
+						<em>{{ .Params.venue }}</em>
+					</div>
 				</section>
 				{{ end }}
 				{{ template "partials/paginator.html" . }}

@@ -191,7 +191,7 @@ footer {
 /* Common */
 .title {
   margin-top: 0.15em;
-  margin-bottom: 0.15em;
+  margin-bottom: 0.2em;
   font-size: var(--title-size);
 }
 
