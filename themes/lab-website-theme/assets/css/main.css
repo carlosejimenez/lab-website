@@ -1,20 +1,20 @@
 /* Markdown */
 :root{
---maincolor: #E77500;
---bordercl: #E77500;
+--maincolor: #FFA45E;
+--bordercl: #FFA45E;
 --callouctcolor:dodgerblue;
---hovercolor:#E77500;
---darkMaincolor: #F58025;
+--hovercolor:#FFA45E;
+--darkMaincolor: #FFA45E;
 
 --dark-background-color: #202124;
 --dark-text-color: #ffffff;
 
---light-background-color: #FFFFFF;
---light-text-color: #232333;
+--light-background-color: #F6FAFF;
+--light-text-color: #324D96;
 
---title-size: 25px;
+--title-size: 30px;
 
---post-type-size: 18px;
+--post-type-size: 24px;
 
 --date-color: var(--maincolor);
 }
@@ -22,7 +22,7 @@ html {
   color: var(--light-text-color);
   font-family: basic-sans, sans-serif;
   font-style: normal;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 1;
 }
 body{
@@ -146,7 +146,7 @@ pre code {
   margin-bottom: 4em;
   margin-left: auto;
   margin-right: auto;
-  max-width: 60%;
+  max-width: 1125px;
   padding: 0 1ch;
   word-wrap: break-word;
 }
@@ -172,6 +172,9 @@ header .main {
 footer {
   display: flex;
   align-items: center;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 1em;
 }
 
 .soc {

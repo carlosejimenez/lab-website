@@ -4,10 +4,10 @@
 	</div>
 	<nav>
 		{{ range .Site.Menus.main }}
-		<a href="{{ .URL }}">{{ .Name }}</a>&nbsp;
+		<a href="{{ .URL }}">{{ .Name }}</a>&nbsp;&nbsp;&nbsp;
 		{{ end }}
 		{{ if eq .Site.Params.mode "toggle" -}}
-        | <a id="dark-mode-toggle" onclick="toggleTheme()" href=""></a>
+        | <a id="dark-mode-toggle" onclick="toggleTheme()" href="">&nbsp;&nbsp;&nbsp;</a>
 		<script src="{{ .Site.BaseURL }}js/themetoggle.js"></script>
 		{{ end }}
 	</nav>
