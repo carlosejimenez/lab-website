@@ -151,6 +151,11 @@ pre code {
   word-wrap: break-word;
 }
 
+.content-box {
+  border: solid 1px;
+  padding: 0.2em 1em;
+}
+
 /* Header */
 header {
   display: flex;
@@ -199,6 +204,21 @@ footer {
   margin-top: 0.15em;
   margin-bottom: 0.2em;
   font-size: var(--title-size);
+}
+
+.people-box {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  width: 25%;
+  margin: 5px;
+  margin-bottom: 25px;
+  border: solid 1px;
+  padding: 0.3em
+}
+
+.people-page-photo {
+  border: none;
 }
 
 .author-list-photo {

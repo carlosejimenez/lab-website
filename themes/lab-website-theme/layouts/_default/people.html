@@ -7,16 +7,7 @@
   {{ range $index, $person := .Params.people }} {{- if eq (mod $index 4) 0 -}}
   <div style="display: flex; flex-direction: row; justify-content: center">
     {{ end }}
-    <div
-      style="
-        display: inline-block;
-        position: relative;
-        text-align: center;
-        width: 25%;
-        margin: 5px;
-        margin-bottom: 25px;
-      "
-    >
+    <div class="people-box">
       {{- if ($.Site.Params.Authors.Get $person).pic -}} {{ if in
       ($.Site.Params.Authors.Get $person).pic "/"}}
       <img
@@ -24,12 +15,13 @@
         src="{{ ($.Site.Params.Authors.Get $person).pic }}"
       />
       {{- else -}}
-      <img
-        style="border: none"
+      <img class="people-page-photo"
         src="/images/people/{{ ($.Site.Params.Authors.Get $person).pic }}"
       />
       {{ end }} {{- else -}}
-      <defaultphoto>😊</defaultphoto>
+      <img class="people-page-photo"
+        src="/images/people/default-photo.png"
+      />
       {{ end }}
       <p>{{ ($.Site.Params.Authors.Get $person).name }}</p>
       <div style="display: flex; flex-direction: row; justify-content: center">

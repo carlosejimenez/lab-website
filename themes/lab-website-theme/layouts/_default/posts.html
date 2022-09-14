@@ -4,11 +4,9 @@
 	<body>
 		<div class="content">
 			{{ partial "head.html" . }}
-			
 			<main class="list">
 				{{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
-				{{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
-				{{ range $paginator.Pages }}
+				{{ range $pages }}
 				<section class="list-item">
 					<div class="post-type">{{ .Params.post_type }}</div>
 					<div class="title">
@@ -35,10 +33,8 @@
 						{{- end -}}
 				</section>
 				{{ end }}
-				{{ template "partials/paginator.html" . }}
 			</main>
 			{{ partial "footer.html" . }}
 		</div>
-		
 	</body>
 </html>
