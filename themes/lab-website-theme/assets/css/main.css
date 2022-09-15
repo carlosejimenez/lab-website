@@ -178,11 +178,14 @@ header .main {
 
 /* Footer */
 footer {
-  display: flex;
   align-items: center;
-  position: absolute;
+  background-color: var(--light-background-color);
   bottom: 0;
-  margin-bottom: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  position: fixed;
+  width: 60%;
+  display: flex;
 }
 
 .soc {

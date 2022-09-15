@@ -37,6 +37,9 @@ pre {
 blockquote {
   border-color: blue;
 }
+footer {
+  background-color: var(--dark-background-color);
+}
 
 h1,
 h2,
