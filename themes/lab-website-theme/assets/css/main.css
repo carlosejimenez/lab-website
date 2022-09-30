@@ -7,7 +7,7 @@
 --darkMaincolor: #FFA45E;
 
 --dark-background-color: #202124;
---dark-text-color: #ffffff;
+--dark-text-color: #F6FAFF;
 
 --light-background-color: #F6FAFF;
 --light-text-color: #324D96;
@@ -151,12 +151,20 @@ pre code {
   word-wrap: break-word;
 }
 
+.content-box {
+  border: solid 1px;
+  padding: 0.2em 1em;
+}
+
 /* Header */
 header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 1em 0;
+  border-style: solid;
+  padding: 1em 1em 0.7em 1em;
+  border-width: 1px;
 }
 
 header .main {
@@ -194,6 +202,21 @@ footer {
   font-size: var(--title-size);
 }
 
+.people-box {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  width: 25%;
+  margin: 5px;
+  margin-bottom: 25px;
+  border: solid 1px;
+  padding: 0.3em
+}
+
+.people-page-photo {
+  border: none;
+}
+
 .author-list-photo {
   height: 1em;
   width: auto;
@@ -205,6 +228,9 @@ footer {
 
 .list-item {
   margin-bottom: 1em;
+  padding: 1em;
+  border-style: solid;
+  border-width: 1px;
 }
 
 .post-type {
