@@ -172,20 +172,13 @@ header .main {
 footer {
   align-items: center;
   background-color: var(--light-background-color);
-  bottom: 0;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  position: fixed;
-  width: 60%;
-  display: flex;
 }
 
 .soc {
   display: flex;
   align-items: center;
   border-bottom: none;
-  padding-top: 15%;
-  padding-bottom: 15%;
+  padding-top: 5px;
 }
 
 .border {

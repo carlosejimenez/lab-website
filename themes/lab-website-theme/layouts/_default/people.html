@@ -4,9 +4,10 @@
     <h1 style="padding-bottom: 15px">{{ .Title }}</h1>
   </div>
 
-  {{ range $index, $person := .Params.people }} {{- if eq (mod $index 4) 0 -}}
+  {{ range $index, $person := .Params.people }}
+  {{- if eq (mod $index 4) 0 -}}
   <div style="display: flex; flex-direction: row; justify-content: center">
-    {{ end }}
+  {{ end }}
     <div
       style="
         display: inline-block;
@@ -17,8 +18,8 @@
         margin-bottom: 25px;
       "
     >
-      {{- if ($.Site.Params.Authors.Get $person).pic -}} {{ if in
-      ($.Site.Params.Authors.Get $person).pic "/"}}
+      {{- if ($.Site.Params.Authors.Get $person).pic -}}
+      {{ if in ($.Site.Params.Authors.Get $person).pic "/"}}
       <img
         style="border: none"
         src="{{ ($.Site.Params.Authors.Get $person).pic }}"
@@ -28,34 +29,99 @@
         style="border: none"
         src="/images/people/{{ ($.Site.Params.Authors.Get $person).pic }}"
       />
-      {{ end }} {{- else -}}
+      {{ end }}
+      {{- else -}}
       <defaultphoto>😊</defaultphoto>
       {{ end }}
       <p>{{ ($.Site.Params.Authors.Get $person).name }}</p>
       <div style="display: flex; flex-direction: row; justify-content: center">
         {{- if ($.Site.Params.Authors.Get $person).link -}}
-        <a href="{{ ($.Site.Params.Authors.Get $person).link }}"
-          ><i data-feather="globe"></i>
+        <a href="{{ ($.Site.Params.Authors.Get $person).link }}">
+          <i data-feather="globe"></i>
         </a>
-        {{ end }} {{- if ($.Site.Params.Authors.Get $person).github -}}
-        <a
-          href="http://github.com/{{ ($.Site.Params.Authors.Get $person).github }}"
-          ><i data-feather="github"></i>
+        {{ end }}
+        {{- if ($.Site.Params.Authors.Get $person).github -}}
+        <a href="http://github.com/{{ ($.Site.Params.Authors.Get $person).github }}">
+          <i data-feather="github"></i>
         </a>
-        {{ end }} {{- if ($.Site.Params.Authors.Get $person).scholar -}}
-        <a href="{{ ($.Site.Params.Authors.Get $person).scholar }}"
-          ><i data-feather="book-open"></i>
+        {{ end }}
+        {{- if ($.Site.Params.Authors.Get $person).scholar -}}
+        <a href="{{ ($.Site.Params.Authors.Get $person).scholar }}">
+          <i data-feather="book-open"></i>
         </a>
-        {{ end }} {{- if ($.Site.Params.Authors.Get $person).twitter -}}
-        <a
-          href="http://twitter.com/{{ ($.Site.Params.Authors.Get $person).github }}"
-          ><i data-feather="twitter"></i>
+        {{ end }}
+        {{- if ($.Site.Params.Authors.Get $person).twitter -}}
+        <a href="http://twitter.com/{{ ($.Site.Params.Authors.Get $person).github }}">
+          <i data-feather="twitter"></i>
         </a>
         {{ end }}
       </div>
     </div>
-    {{- if eq (mod $index 4) 3 -}}
+  {{- if or (eq (mod $index 4) 3) (eq $index (sub (int (len $.Params.people)) 1)) -}}
   </div>
-  {{ end }} {{ end }}
+  {{ end }}
+  {{ end }}
+
+  <div>
+    <h1 style="padding-bottom: 15px">Alumni</h1>
+  </div>
+
+  {{ range $index, $person := .Params.alumni }}
+  {{- if eq (mod $index 4) 0 -}}
+  <div style="display: flex; flex-direction: row;">
+  {{ end }}
+    <div
+      style="
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        width: 25%;
+        margin: 5px;
+        margin-bottom: 25px;
+      "
+    >
+      {{- if ($.Site.Params.Authors.Get $person).pic -}}
+      {{ if in ($.Site.Params.Authors.Get $person).pic "/"}}
+      <img
+        style="border: none"
+        src="{{ ($.Site.Params.Authors.Get $person).pic }}"
+      />
+      {{- else -}}
+      <img
+        style="border: none"
+        src="/images/people/{{ ($.Site.Params.Authors.Get $person).pic }}"
+      />
+      {{ end }}
+      {{- else -}}
+      <defaultphoto>😊</defaultphoto>
+      {{ end }}
+      <p>{{ ($.Site.Params.Authors.Get $person).name }}</p>
+      <div style="display: flex; flex-direction: row; justify-content: center">
+        {{- if ($.Site.Params.Authors.Get $person).link -}}
+        <a href="{{ ($.Site.Params.Authors.Get $person).link }}">
+          <i data-feather="globe"></i>
+        </a>
+        {{ end }}
+        {{- if ($.Site.Params.Authors.Get $person).github -}}
+        <a href="http://github.com/{{ ($.Site.Params.Authors.Get $person).github }}">
+          <i data-feather="github"></i>
+        </a>
+        {{ end }}
+        {{- if ($.Site.Params.Authors.Get $person).scholar -}}
+        <a href="{{ ($.Site.Params.Authors.Get $person).scholar }}">
+          <i data-feather="book-open"></i>
+        </a>
+        {{ end }}
+        {{- if ($.Site.Params.Authors.Get $person).twitter -}}
+        <a href="http://twitter.com/{{ ($.Site.Params.Authors.Get $person).github }}">
+          <i data-feather="twitter"></i>
+        </a>
+        {{ end }}
+      </div>
+    </div>
+  {{- if or (eq (mod $index 4) 3) (eq $index (sub (int (len $.Params.people)) 1)) -}}
+  </div>
+  {{ end }}
+  {{ end }}
 </main>
 {{ end }}

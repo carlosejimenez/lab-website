@@ -13,6 +13,10 @@ people:
     murahari,
     jy1682,
   ]
+alumni:
+  [
+    juanduque
+  ]
 layout: "people"
 ---
 

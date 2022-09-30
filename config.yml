@@ -87,6 +87,10 @@ params:
       github: vmurahari3
       scholar: https://scholar.google.com/citations?user=Y_NYX7MAAAAJ
       twitter: VishvakM
+    juanduque:
+      name: Juan Duque
+      pic: juanduque.jpeg
+      link: https://www.linkedin.com/in/juan-duque/
 
 menu:
   main:
