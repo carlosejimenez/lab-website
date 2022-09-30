@@ -15,7 +15,8 @@ people:
   ]
 alumni:
   [
-    juanduque
+    jimmyyang,
+    juanduque,
   ]
 layout: "people"
 ---

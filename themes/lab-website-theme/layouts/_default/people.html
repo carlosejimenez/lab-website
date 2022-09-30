@@ -12,7 +12,7 @@
       {{- if ($.Site.Params.Authors.Get $person).pic -}}
       {{ if in ($.Site.Params.Authors.Get $person).pic "/"}}
       <img
-        style="border: none"
+        class="people-page-photo"
         src="{{ ($.Site.Params.Authors.Get $person).pic }}"
       />
       {{- else -}}
@@ -43,7 +43,7 @@
         </a>
         {{ end }}
         {{- if ($.Site.Params.Authors.Get $person).twitter -}}
-        <a href="http://twitter.com/{{ ($.Site.Params.Authors.Get $person).github }}">
+        <a href="http://twitter.com/{{ ($.Site.Params.Authors.Get $person).twitter }}">
           <i data-feather="twitter"></i>
         </a>
         {{ end }}
@@ -66,12 +66,12 @@
       {{- if ($.Site.Params.Authors.Get $person).pic -}}
       {{ if in ($.Site.Params.Authors.Get $person).pic "/"}}
       <img
-        style="border: none"
+        class="people-page-photo"
         src="{{ ($.Site.Params.Authors.Get $person).pic }}"
       />
       {{- else -}}
       <img
-        style="border: none"
+        class="people-page-photo"
         src="/images/people/{{ ($.Site.Params.Authors.Get $person).pic }}"
       />
       {{ end }}
@@ -96,7 +96,7 @@
         </a>
         {{ end }}
         {{- if ($.Site.Params.Authors.Get $person).twitter -}}
-        <a href="http://twitter.com/{{ ($.Site.Params.Authors.Get $person).github }}">
+        <a href="http://twitter.com/{{ ($.Site.Params.Authors.Get $person).twitter }}">
           <i data-feather="twitter"></i>
         </a>
         {{ end }}
