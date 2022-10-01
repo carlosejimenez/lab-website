@@ -5,10 +5,8 @@ draft: false
 post_type: publication
 authors: [carlosej, karthikn]
 venue: Association for Computational Linguistics (ACL) 2022
-# direct_link: https://princeton-nlp.github.io/WebShop
 
 code: https://github.com/princeton-nlp/CARETS
 link: https://arxiv.org/abs/2203.07613
 ---
-
-DataMUX is cool and makes training way faster bro.
+We introduce CARETS, a systematic test suite to measure consistency and robustness of modern VQA models through a series of six fine-grained capability tests. In contrast to existing VQA test sets, CARETS features balanced question generation to create pairs of instances to test models, with each pair focusing on a specific capability such as rephrasing, logical symmetry or image obfuscation. We evaluate six modern VQA systems on CARETS and identify several actionable weaknesses in model comprehension, especially with concepts such as negation, disjunction, or hypernym invariance. Interestingly, even the most sophisticated models are sensitive to aspects such as swapping the order of terms in a conjunction or varying the number of answer choices mentioned in the question. We release CARETS to be used as an extensible tool for evaluating multi-modal model robustness.

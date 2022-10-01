@@ -5,10 +5,14 @@
 		<div class="content">
 			{{ partial "head.html" . }}
 			<main class="list">
+				{{ $emojiMap := dict "blog" "✏️" "publication" "✒️" }}
 				{{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
 				{{ range $pages }}
 				<section class="list-item">
-					<div class="post-type">{{ .Params.post_type }}</div>
+					<div class="post-type">
+						{{ index $emojiMap .Params.post_type }}
+						{{ .Params.post_type }}
+					</div>
 					<div class="title">
 						{{- if .Params.direct_link -}}
 						<a href="{{ .Params.direct_link }}">{{.Title}}</a>
