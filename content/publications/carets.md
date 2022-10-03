@@ -5,6 +5,7 @@ draft: false
 post_type: publication
 authors: [carlosej, karthikn]
 venue: Association for Computational Linguistics (ACL) 2022
+header_emoji: 🥕
 
 code: https://github.com/princeton-nlp/CARETS
 link: https://arxiv.org/abs/2203.07613

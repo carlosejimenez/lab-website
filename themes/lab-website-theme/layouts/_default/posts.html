@@ -10,7 +10,11 @@
 				{{ range $pages }}
 				<section class="list-item">
 					<div class="post-type">
-						{{ index $emojiMap .Params.post_type }}
+						{{ if .Params.header_emoji }}
+							{{ .Params.header_emoji }}
+						{{ else }}
+							{{ index $emojiMap .Params.post_type }}
+						{{ end }}
 						{{ .Params.post_type }}
 					</div>
 					<div class="title">
