@@ -48,11 +48,15 @@ You may add either a link or a static asset as your `pic`.
 2. Copy and paste the following text (include the top and bottom `---`'s) to the beginning of the file, then fill in the fields. This is your post metadata.
 ```
 ---
-title:     # Post Title
-date:      # YYYY-MM-DD format
-draft:     # if `true`, post will be hidden
+title:          # Post Title
+date:           # YYYY-MM-DD format
+draft:          # if `true`, post will be hidden
 post_type: blog # Do not change
-authors:   # list of ids from `config.yml`
+authors:        # list of ids from `config.yml`
+tags:           # List of tags associated w/ this entry
+
+# Optional
+header_emoji:   # Include to override the default "✏️"
 ---
 ```
 3. Write the content for your blog post below the metadata in Markdown. If you're unfamiliar with Markdown, [this]() is a good place to start. You can also check out `example.md` in the `posts` folder and, after starting `hugo server`, preview it [here](http://localhost:1313/posts/example/).
@@ -63,17 +67,19 @@ authors:   # list of ids from `config.yml`
 2. In the markdown folder, copy and paste the following text (include the top and bottom `---`'s) to the beginning of the file, then fill in the fields. This is your publication metadata.
 ```
 ---
-title:     # Paper title
-date:      # YYYY-MM-DD format
-draft:     # if `true`, post will be hidden
+title:                 # Paper title
+date:                  # YYYY-MM-DD format
+draft:                 # if `true`, post will be hidden
 post_type: publication # Do not change
-authors:   # list of ids from `config.yml`
-venue:     # conference / journal / ArXiv
+authors:               # list of ids from `config.yml`
+tags:                  # List of tags associated w/ this entry
+venue:                 # conference / journal / ArXiv
 
 # Below are optional, but strongly recommended
-code:      # Link to GitHub Repo
-link:      # Link to paper
-site:      # Link to project website
+code:                  # Link to GitHub Repo
+link:                  # Link to paper
+site:                  # Link to project website
+header_emoji:          # Include to override default "✒️"
 
 # Read more about `direct_link` below
 direct_link: # URL

@@ -4,6 +4,7 @@ date: 2022-09-14
 draft: false
 post_type: blog
 authors: [carlosej, jy1682]
+tags: ["b", "c"]
 ---
 
 ## Abstract

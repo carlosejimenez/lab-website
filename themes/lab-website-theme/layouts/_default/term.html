@@ -1,17 +1,50 @@
 {{ define "main" }}
 {{ if isset .Data "Term" }}
-<h1>Entries tagged - "{{ .Data.Term }}"</h1>
+<h1>Posts tagged <i>{{ .Data.Term }}</i></h1>
 {{ else }}
 <h1 class="page-title">All articles</h1>
 {{ end }}
 
-<ul class="posts">
+<main class="list">
+	{{ $emojiMap := dict "blog" "✏️" "publication" "✒️" }}
 	{{- range .Data.Pages -}}
 		{{- if (not (in (.Site.Params.excludedTypes | default (slice "page")) .Type)) -}}
-		<li class="post">
-			<a href="{{ .RelPermalink }}">{{.Title}}</a> <span class="meta">{{ dateFormat "Jan 2, 2006" .Date }}</span>
-		</li>
+		<!-- Hacky way to de-duplicate cross-posted publications -->
+		{{- if (not (in .RelPermalink "posts/publications" )) -}}
+		<section class="list-item">
+			<div class="post-type">
+				{{ if .Params.header_emoji }}
+					{{ .Params.header_emoji }}
+				{{ else }}
+					{{ index $emojiMap .Params.post_type }}
+				{{ end }}
+				{{ .Params.post_type }}
+			</div>
+			<div class="title">
+				{{- if .Params.direct_link -}}
+				<a href="{{ .Params.direct_link }}">{{.Title}}</a>
+				{{ else }}
+				<a href="{{ .RelPermalink }}">{{.Title}}</a>
+				{{ end }}
+			</div>
+			<time>{{ dateFormat "2006-01-02" .Date }} <!-- Don't change date format -->
+				{{- if .Params.authors -}}&bull;&nbsp;{{ end }}
+			</time>
+				{{- range $index, $author := .Params.authors -}}
+					<span class="author-list-badge">
+					<a href="{{ ($.Site.Params.Authors.Get $author).link }}">
+					{{- if ($.Site.Params.Authors.Get $author).pic -}}
+						<img src="/images/people/{{ ($.Site.Params.Authors.Get $author).pic }}" class="author-list-photo"></img>
+					{{- else -}}
+					<defaultphoto style="font-size: 0.94em">😊</defaultphoto> <!-- default photo -->
+					{{ end }}
+					<span class="author-list-name" margin="0" padding="0">{{ ($.Site.Params.Authors.Get $author).name }}</span></a>
+					</span>
+					&nbsp;
+				{{- end -}}
+		</section>
+		{{- end -}}
 		{{- end -}}
 	{{- end -}}
-</ul>
+</main>
 {{ end }}

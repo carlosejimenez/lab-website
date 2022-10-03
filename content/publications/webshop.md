@@ -5,6 +5,7 @@ draft: false
 post_type: publication
 authors: [shunyuy, hc22, jy1682, karthikn]
 venue: Neural Information Processing Systems (NeurIPS) 2022
+tags: ["a", "b"]
 # direct_link: https://princeton-nlp.github.io/WebShop
 
 code: https://github.com/princeton-nlp/WebShop

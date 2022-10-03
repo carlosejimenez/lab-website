@@ -1,9 +1,24 @@
 {{ define "main" }}
+{{ $data := .Data }}
 <main>
 	<article class="content-box">
 		<div>
 			<h1 class="title">{{ .Title }}</h1>
 			<div class="meta">Posted on {{ dateFormat "Jan 2, 2006" .Date }}</div>
+			<div style="padding-top:10px">
+				{{- range $index, $author := .Params.authors -}}
+					<span class="author-list-badge">
+					<a href="{{ ($.Site.Params.Authors.Get $author).link }}">
+					{{- if ($.Site.Params.Authors.Get $author).pic -}}
+						<img src="/images/people/{{ ($.Site.Params.Authors.Get $author).pic }}" class="author-list-photo"></img>
+					{{- else -}}
+					<defaultphoto style="font-size: 0.94em">😊</defaultphoto> <!-- default photo -->
+					{{ end }}
+					<span class="author-list-name" margin="0" padding="0">{{ ($.Site.Params.Authors.Get $author).name }}</span></a>
+					</span>
+					&nbsp;
+				{{- end -}}
+			</div>
 			{{- if eq .Params.post_type "publication" -}}
 			<div style="padding-top:10px;">
 				{{- if .Params.code -}}
@@ -14,6 +29,15 @@
 				{{ end }}
 				{{- if .Params.site -}}
 				<a href="{{ .Params.site }}"><i data-feather="globe"></i></a>
+				{{- end -}}
+			</div>
+			{{- end -}}
+			{{- if .Params.tags -}}
+			<div style="padding-top:10px;">
+				{{ range $index, $tag := .Params.tags }}
+				<a href="{{ $.Site.LanguagePrefix | absURL }}{{ $data.Plural }}/tags/{{ $tag | urlize }}/">
+					{{ $tag }}
+				</a>
 				{{ end }}
 			</div>
 			{{ end }}
