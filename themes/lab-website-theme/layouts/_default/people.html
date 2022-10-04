@@ -9,8 +9,14 @@
   <div style="display: flex; flex-direction: row; justify-content: center">
   {{ end }}
     <div class="people-box">
+<<<<<<< Updated upstream
       {{- if ($.Site.Params.Authors.Get $person).pic -}}
       {{ if in ($.Site.Params.Authors.Get $person).pic "/"}}
+=======
+      <a href="{{ ($.Site.Params.Authors.Get $person).link }}">
+      {{- if ($.Site.Params.Authors.Get $person).pic -}} {{ if in
+      ($.Site.Params.Authors.Get $person).pic "/"}}
+>>>>>>> Stashed changes
       <img
         class="people-page-photo"
         src="{{ ($.Site.Params.Authors.Get $person).pic }}"
@@ -25,7 +31,8 @@
         src="/images/people/default-photo.png"
       />
       {{ end }}
-      <p>{{ ($.Site.Params.Authors.Get $person).name }}</p>
+      </a>
+      <p style="margin-top: 0.3em; margin-bottom: 0.3em;">{{ ($.Site.Params.Authors.Get $person).name }}<br><span style="font-size: 0.85em;">{{ ($.Site.Params.Authors.Get $person).title }}</span></p>
       <div style="display: flex; flex-direction: row; justify-content: center">
         {{- if ($.Site.Params.Authors.Get $person).link -}}
         <a href="{{ ($.Site.Params.Authors.Get $person).link }}">

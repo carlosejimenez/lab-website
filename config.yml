@@ -12,14 +12,17 @@ params:
   authors:
     sarora:
       name: Sanjeev Arora
+      title: Professor
       pic: sanjeev.jpeg
       link: https://www.cs.princeton.edu/~arora/
     danqic:
       name: Danqi Chen
+      title: Assistant Professor
       pic: danqi.jpeg
       link: https://www.cs.princeton.edu/~danqic/
     karthikn:
       name: Karthik Narasimhan
+      title: Assistant Professor
       pic: karthikn.jpeg
       link: https://www.cs.princeton.edu/~karthikn/
       github: karthikncode
@@ -27,6 +30,7 @@ params:
       twitter: karthik_r_n
     carlosej:
       name: Carlos E. Jimenez
+      title: PhD Student
       pic: carlosej.jpeg
       link: http://www.carlosejimenez.com/
       github: carlosejimenez
@@ -34,6 +38,7 @@ params:
       twitter: _carlosejimenez
     jy1682:
       name: John Yang
+      title: MSE Student
       pic: jy1682.jpg
       link: https://john-b-yang.github.io
       github: john-b-yang
@@ -41,6 +46,7 @@ params:
       twitter: jyangballin
     asd:
       name: Ameet Deshpande
+      title: PhD Student
       pic: asd.jpg
       link: https://ameet-1997.github.io/
       github: ameet-1997
@@ -48,6 +54,7 @@ params:
       twitter: AmeetDeshpande_
     hjwang:
       name: Austin H. Wang
+      title: PhD Student
       pic: hjwang.png
       twitter: awhanjie
       link: https://ahjwang.github.io/
@@ -55,6 +62,7 @@ params:
       scholar: https://scholar.google.com/citations?user=BB4R2_gAAAAJ
     jtuyls:
       name: Jens Tuyls
+      title: PhD Student
       pic: jtuyls.jpeg
       link: https://jens321.github.io/
       github: jens321
@@ -62,6 +70,7 @@ params:
       twitter: JensTuyls
     hc22:
       name: Howard Chen
+      title: PhD Student
       pic: hc22.png
       link: https://howard50b.github.io/
       github: howard50b
@@ -69,12 +78,14 @@ params:
       twitter: __howardchen
     runzhey:
       name: Runzhe Yang
+      title: PhD Student
       pic: runzhey.jpeg
       link: https://runzhe-yang.science/
       github: runzheyang
       twitter: RunzheYang
     shunyuy:
       name: Shunyu Yao
+      title: PhD Student
       pic: shunyuy.jpeg
       link: https://ysymyth.github.io/
       github: ysymyth
@@ -82,6 +93,7 @@ params:
       twitter: ShunyuYao12
     murahari:
       name: Vishvak Murahari
+      title: PhD Student
       pic: murahari.jpeg
       link: https://vishvakmurahari.com/
       github: vmurahari3

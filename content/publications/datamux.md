@@ -4,9 +4,14 @@ date: 2022-02-16
 draft: false
 post_type: publication
 authors: [murahari, carlosej, runzhey, karthikn]
+<<<<<<< Updated upstream
 venue: NeurIPS 2022
 tags: ["Machine Learning", "Parallel Computing", "Computational Engineering"]
 # direct_link: https://princeton-nlp.github.io/DataMUX/
+=======
+venue: ArXiv preprint
+direct_link: https://princeton-nlp.github.io/DataMUX/
+>>>>>>> Stashed changes
 
 code: https://github.com/princeton-nlp/DataMUX
 link: https://arxiv.org/abs/2202.09318
