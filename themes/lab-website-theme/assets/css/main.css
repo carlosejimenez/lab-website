@@ -85,6 +85,16 @@ ul > li::before {
   font-weight: 600;
 }
 
+/* Tag */
+.post-tag {
+  border-radius: 5px;
+  background-color: var(--light-text-color);
+  color: white;
+  font-size: 18px;
+  margin-right: 3px;
+  padding: 1px 5px;
+}
+
 /* Images */
 img {
   max-width: 100%;
@@ -265,8 +275,11 @@ time {
 .tags li::before{
   content: "🏷 ";
 }
+.tags li {
+  padding-bottom: 15px;
+}
 .tags a{
-  border-bottom: 3px solid var(--maincolor); 
+  border-bottom: 3px solid var(--maincolor);
 }
 .tags a:hover{
   color:white;

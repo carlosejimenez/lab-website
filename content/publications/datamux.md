@@ -5,7 +5,7 @@ draft: false
 post_type: publication
 authors: [murahari, carlosej, runzhey, karthikn]
 venue: Neural Information Processing Systems (NeurIPS) 2022
-tags: ["a", "b", "c"]
+tags: ["Machine Learning", "Parallel Computing", "Computational Engineering"]
 # direct_link: https://princeton-nlp.github.io/DataMUX/
 
 code: https://github.com/princeton-nlp/DataMUX

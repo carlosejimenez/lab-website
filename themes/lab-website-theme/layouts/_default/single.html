@@ -35,9 +35,11 @@
 			{{- if .Params.tags -}}
 			<div style="padding-top:10px;">
 				{{ range $index, $tag := .Params.tags }}
-				<a href="{{ $.Site.LanguagePrefix | absURL }}{{ $data.Plural }}/tags/{{ $tag | urlize }}/">
-					{{ $tag }}
-				</a>
+				<span class="post-tag">
+					<a href="{{ $.Site.LanguagePrefix | absURL }}{{ $data.Plural }}/tags/{{ $tag | urlize }}/">
+						{{ $tag }}
+					</a>
+				</span>
 				{{ end }}
 			</div>
 			{{ end }}
@@ -46,20 +48,6 @@
 		<section class="body">
 			{{ .Content }}
 		</section>
-
-		<div class="post-tags">
-			{{ if ne .Type "page" }}
-			{{ if gt .Params.tags 0 }}
-			<nav class="nav tags">
-				<ul class="tags">
-					{{ range .Params.tags }}
-					<li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
-					{{ end }}
-				</ul>
-			</nav>
-			{{ end }}
-			{{ end }}
-		</div>
 	</article>
 	<!-- MathJax -->
 	<script
