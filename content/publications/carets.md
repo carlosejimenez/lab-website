@@ -1,10 +1,10 @@
 ---
 title: "CARETS"
-date: 2022-05-23T18:08:04-04:00
+date: 2022-05-23
 draft: false
 post_type: publication
 authors: [carlosej, karthikn]
-venue: Association for Computational Linguistics (ACL) 2022
+venue: ACL 2022
 header_emoji: 🥕
 tags: [
   "NLP", "VQA", "Dataset", "Benchmark"

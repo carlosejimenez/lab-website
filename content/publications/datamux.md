@@ -1,10 +1,10 @@
 ---
 title: "DataMUX"
-date: 2022-02-16T18:08:04-04:00
+date: 2022-02-16
 draft: false
 post_type: publication
 authors: [murahari, carlosej, runzhey, karthikn]
-venue: Neural Information Processing Systems (NeurIPS) 2022
+venue: NeurIPS 2022
 tags: ["Machine Learning", "Parallel Computing", "Computational Engineering"]
 # direct_link: https://princeton-nlp.github.io/DataMUX/
 

@@ -4,7 +4,7 @@ date: 2022-07-16
 draft: false
 post_type: publication
 authors: [shunyuy, hc22, jy1682, karthikn]
-venue: Neural Information Processing Systems (NeurIPS) 2022
+venue: NeurIPS 2022
 tags: [
   "Language Grounding", "RL", "NLP", "Sim-to-real Transfer", "Dataset", "Benchmark"
 ]
