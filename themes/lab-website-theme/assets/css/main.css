@@ -90,8 +90,10 @@ ul > li::before {
   border-radius: 5px;
   background-color: #999;
   color: white;
+  display: inline-block;
   font-size: 18px;
-  margin-right: 3px;
+  margin-bottom: 0.2em;
+  margin-right: 0.1em;
   padding: 1px 5px;
 }
 
@@ -107,11 +109,11 @@ ul > li::before {
   border-radius: 5px;
   border: 1px solid var(--light-text-color);
   font-size: 18px;
-  margin: 0px 3px;
+  margin-right: 0.5em;
 }
 
 .supp-tag {
-  padding: 0px 3px;
+  padding: 0em 1em;
 }
 
 .supp-tag:hover {
