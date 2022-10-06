@@ -22,13 +22,19 @@
 			{{- if eq .Params.post_type "publication" -}}
 			<div style="padding-top:10px;">
 				{{- if .Params.code -}}
-				<a href="{{ .Params.code }}"><i data-feather="code"></i></a>
+				<span class="supp-tag">
+					<a href="{{ .Params.code }}">GitHub</a>
+				</span>
 				{{ end }}
 				{{- if .Params.link -}}
-				<a href="{{ .Params.link }}"><i data-feather="paperclip"></i></a>
+				<span class="supp-tag">
+					<a href="{{ .Params.link }}">Paper</a>
+				</span>
 				{{ end }}
 				{{- if .Params.site -}}
-				<a href="{{ .Params.site }}"><i data-feather="globe"></i></a>
+				<span class="supp-tag">
+					<a href="{{ .Params.site }}">Site</a>
+				</span>
 				{{- end -}}
 			</div>
 			{{- end -}}

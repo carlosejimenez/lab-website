@@ -88,11 +88,40 @@ ul > li::before {
 /* Tag */
 .post-tag {
   border-radius: 5px;
-  background-color: var(--light-text-color);
+  background-color: #999;
   color: white;
   font-size: 18px;
   margin-right: 3px;
   padding: 1px 5px;
+}
+
+.post-tag:hover {
+  background-color: #666;
+}
+
+.post-tag a:hover {
+  background-color: #666;
+}
+
+.supp-tag {
+  border-radius: 5px;
+  border: 1px solid var(--light-text-color);
+  font-size: 18px;
+  margin: 0px 3px;
+}
+
+.supp-tag {
+  padding: 0px 3px;
+}
+
+.supp-tag:hover {
+  border: 1px solid var(--hovercolor);
+  background-color: transparent;
+  color: var(--hovercolor);
+}
+
+.supp-tag:hover a {
+  background-color: transparent;
 }
 
 /* Images */
@@ -220,7 +249,7 @@ footer {
   margin: 5px;
   margin-bottom: 25px;
   border: solid 1px;
-  padding: 0.3em
+  padding: 0.3em;
 }
 
 .people-page-photo {
