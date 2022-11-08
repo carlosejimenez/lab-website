@@ -53,6 +53,9 @@ h6 {
 a {
   color: inherit;
 }
+.post-separator {
+  border: 1px solid var(--dark-text-color);
+}
 
 .tags a {
   border-bottom: 3px solid var(--darkMaincolor);

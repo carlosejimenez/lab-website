@@ -12,7 +12,7 @@
 				<section class="list-item">
 					<div class="title">
 						{{- if .Params.direct_link -}}
-						<a href="{{ .Params.direct_link }}">{{.Title}}</a>
+						<a href="{{ .Params.direct_link }}">{{.Title}} <span class="direct-link-symbol">&#x21F1;</span></a>
 						{{ else }}
 						<a href="{{ .RelPermalink }}">{{.Title}}</a>
 						{{ end }}

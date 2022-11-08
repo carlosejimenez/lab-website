@@ -6,11 +6,11 @@
 --hovercolor:#FFA45E;
 --darkMaincolor: #FFA45E;
 
---dark-background-color: #202124;
+--dark-background-color: #101729;
 --dark-text-color: #F6FAFF;
 
 --light-background-color: #F6FAFF;
---light-text-color: #324D96;
+--light-text-color: #132964;
 
 --title-size: 30px;
 
@@ -25,13 +25,19 @@ html {
   font-size: 22px;
   line-height: 1;
 }
-body{
+body {
   background-color: var(--light-background-color);
   display: block;
   margin: 8px;
 }
 * {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.post-content {
+  padding: 0px 2em;
+}
+.post-separator {
+  border: 1px solid var(--light-text-color);
 }
 
 ::selection {
@@ -403,4 +409,13 @@ table th{
 table td{
   padding: 6px 13px;
   border: 1px solid #dfe2e5;
+}
+
+.direct-link-symbol {
+  vertical-align:text-top;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  display: inline-block;
+  font-size: 90%;
 }
