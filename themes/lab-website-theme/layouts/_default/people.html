@@ -9,26 +9,31 @@
   <div style="display: flex; flex-direction: row; justify-content: center">
   {{ end }}
     <div class="people-box">
-      <a href="{{ ($.Site.Params.Authors.Get $person).link }}">
-      {{- if ($.Site.Params.Authors.Get $person).pic -}}
-      {{ if in ($.Site.Params.Authors.Get $person).pic "/"}}
-      <img
-        class="people-page-photo"
-        src="{{ ($.Site.Params.Authors.Get $person).pic }}"
-      />
-      {{- else -}}
-      <img class="people-page-photo"
-        src="/images/people/{{ ($.Site.Params.Authors.Get $person).pic }}"
-      />
-      {{ end }}
-      {{- else -}}
-      <img class="people-page-photo"
-        src="/images/people/default-photo.png"
-      />
-      {{ end }}
-      </a>
+      <div class="people-box-image">
+        {{- if ($.Site.Params.Authors.Get $person).pic -}}
+        {{ if in ($.Site.Params.Authors.Get $person).pic "/"}}
+        <img
+          class="people-page-photo"
+          src="{{ ($.Site.Params.Authors.Get $person).pic }}"
+        />
+        {{- else -}}
+        <img class="people-page-photo"
+          src="/images/people/{{ ($.Site.Params.Authors.Get $person).pic }}"
+        />
+        {{ end }}
+        {{- else -}}
+        <img class="people-page-photo"
+          src="/images/people/default-photo.png"
+        />
+        {{ end }}
+        <div class="people-box-overlay">
+          <div class="people-box-text">{{ ($.Site.Params.Authors.Get $person).interests }}</div>
+        </div>
+      </div>
       <p style="margin-top: 0.3em; margin-bottom: 0.3em;">
-        {{ ($.Site.Params.Authors.Get $person).name }}
+        <a href="{{ ($.Site.Params.Authors.Get $person).link }}">
+          {{ ($.Site.Params.Authors.Get $person).name }}
+        </a>
         <br>
         <span style="font-size: 0.85em;">{{ ($.Site.Params.Authors.Get $person).title }}</span>
       </p>
@@ -69,25 +74,30 @@
   <div style="display: flex; flex-direction: row;">
   {{ end }}
     <div class="people-box">
-      <a href="{{ ($.Site.Params.Authors.Get $person).link }}">
-      {{- if ($.Site.Params.Authors.Get $person).pic -}}
-      {{ if in ($.Site.Params.Authors.Get $person).pic "/"}}
-      <img
-        class="people-page-photo"
-        src="{{ ($.Site.Params.Authors.Get $person).pic }}"
-      />
-      {{- else -}}
-      <img
-        class="people-page-photo"
-        src="/images/people/{{ ($.Site.Params.Authors.Get $person).pic }}"
-      />
-      {{ end }}
-      {{- else -}}
-      <defaultphoto>😊</defaultphoto>
-      {{ end }}
-      </a>
+      <div class="people-box-image">
+        {{- if ($.Site.Params.Authors.Get $person).pic -}}
+        {{ if in ($.Site.Params.Authors.Get $person).pic "/"}}
+        <img
+          class="people-page-photo"
+          src="{{ ($.Site.Params.Authors.Get $person).pic }}"
+        />
+        {{- else -}}
+        <img
+          class="people-page-photo"
+          src="/images/people/{{ ($.Site.Params.Authors.Get $person).pic }}"
+        />
+        {{ end }}
+        {{- else -}}
+        <defaultphoto>😊</defaultphoto>
+        {{ end }}
+        <div class="people-box-overlay">
+          <div class="people-box-text">{{ ($.Site.Params.Authors.Get $person).interests }}</div>
+        </div>
+      </div>
       <p style="margin-top: 0.3em; margin-bottom: 0.3em;">
-        {{ ($.Site.Params.Authors.Get $person).name }}
+        <a href="{{ ($.Site.Params.Authors.Get $person).link }}">
+          {{ ($.Site.Params.Authors.Get $person).name }}
+        </a>
         <br>
         <span style="font-size: 0.85em;">{{ ($.Site.Params.Authors.Get $person).title }}</span>
       </p>

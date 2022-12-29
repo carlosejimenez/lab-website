@@ -79,7 +79,7 @@ a:hover {
   background-color: var(--light-background-color);
 }
 
-ul {
+/* ul {
   list-style: none;
   padding-left: 2ch;
 }
@@ -89,7 +89,7 @@ ul li {
 ul > li::before {
   content: '* ';
   font-weight: 600;
-}
+} */
 
 /* Tag */
 .post-tag {
@@ -260,8 +260,42 @@ footer {
   padding: 0.3em;
 }
 
+.people-box-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: 1 ease;
+  background-color: var(--light-text-color);
+}
+
+.people-box-image {
+  position: relative;
+}
+
+.people-box-image:hover .people-box-overlay {
+  opacity: 1;
+}
+
+.people-box-text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 .people-page-photo {
   border: none;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .author-list-photo {

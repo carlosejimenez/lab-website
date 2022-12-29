@@ -31,14 +31,14 @@
 				{{- if .Params.authors -}}&bull;&nbsp;{{ end }}
 			</time>
 				{{- range $index, $author := .Params.authors -}}
-					<span class="author-list-badge">
-					<a href="{{ ($.Site.Params.Authors.Get $author).link }}">
-					{{- if ($.Site.Params.Authors.Get $author).pic -}}
-						<img src="/images/people/{{ ($.Site.Params.Authors.Get $author).pic }}" class="author-list-photo"></img>
-					{{- else -}}
-					<defaultphoto style="font-size: 0.94em">😊</defaultphoto> <!-- default photo -->
-					{{ end }}
-					<span class="author-list-name" margin="0" padding="0">{{ ($.Site.Params.Authors.Get $author).name }}</span></a>
+					<span>
+						<a href="{{ ($.Site.Params.Authors.Get $author).link }}">
+						{{- if ($.Site.Params.Authors.Get $author).pic -}}
+							<img src="/images/people/{{ ($.Site.Params.Authors.Get $author).pic }}" class="author-list-photo"></img>
+						{{- else -}}
+						<defaultphoto style="font-size: 0.94em">😊</defaultphoto> <!-- default photo -->
+						{{ end }}
+						<span class="author-list-name" margin="0" padding="0">{{ ($.Site.Params.Authors.Get $author).name }}</span></a>
 					</span>
 					&nbsp;
 				{{- end -}}

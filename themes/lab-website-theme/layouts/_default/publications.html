@@ -21,7 +21,7 @@
 						{{- if .Params.authors -}}&bull;&nbsp;{{ end }}
 					</time>
 					{{- range $index, $author := .Params.authors -}}
-					<span class="author-list-badge">
+					<span>
 						<a href="{{ ($.Site.Params.Authors.Get $author).link }}">
 							{{- if ($.Site.Params.Authors.Get $author).pic -}}
 							<img src="/images/people/{{ ($.Site.Params.Authors.Get $author).pic }}" class="author-list-photo"></img>
@@ -33,6 +33,25 @@
 					</span>
 					&nbsp;
 					{{- end -}}
+					{{- if (or .Params.code .Params.link .Params.site) -}}
+					<div style="padding: 10px 0px;">
+						{{- if .Params.code -}}
+						<span class="supp-tag">
+							<a href="{{ .Params.code }}">GitHub</a>
+						</span>
+						{{ end }}
+						{{- if .Params.link -}}
+						<span class="supp-tag">
+							<a href="{{ .Params.link }}">Paper</a>
+						</span>
+						{{ end }}
+						{{- if .Params.site -}}
+						<span class="supp-tag">
+							<a href="{{ .Params.site }}">Site</a>
+						</span>
+						{{- end -}}
+					</div>
+					{{- end -}}
 					<div style="margin-top: 0.2em;">
 						<em>{{ .Params.venue }}</em>
 					</div>
@@ -40,7 +59,7 @@
 				{{ end }}
 				{{ template "partials/paginator.html" . }}
 			</main>
-			<!-- {{ partial "footer.html" . }} -->
+			{{ partial "footer.html" . }}
 		</div>
 		
 	</body>

@@ -1,13 +1,13 @@
-<footer>
+<!-- <footer>
   <div style="display:flex; padding-top:5px">
     {{- range $index, $key := .Site.Params.Social -}}
     <a class="soc" href="{{ $key.url }}" title="{{ $key.name }}"><i data-feather="{{ $key.icon }}"></i></a>
-      {{ if ne $index (sub (int (len $.Site.Params.Social) ) 1) }} <!-- Only print seperators between icons -->
+      {{ if ne $index (sub (int (len $.Site.Params.Social) ) 1) }}
         <a class="border"></a>
       {{ end }}
     {{- end -}}
   </div>
-</footer>
+</footer> -->
 {{ if not .Site.IsServer }}
 {{ template "_internal/google_analytics_async.html" . }}
 {{ end }}

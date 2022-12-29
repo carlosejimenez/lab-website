@@ -28,6 +28,7 @@ params:
       github: karthikncode
       scholar: https://scholar.google.com/citations?user=euc0GX4AAAAJ
       twitter: karthik_r_n
+      interests: "Language Interaction, Embodied Language Understanding"
     carlosej:
       name: Carlos E. Jimenez
       title: PhD Student
@@ -36,6 +37,7 @@ params:
       github: carlosejimenez
       scholar: https://scholar.google.com/citations?user=Ue4wghAAAAAJ
       twitter: _carlosejimenez
+      interests: "Efficient NLP, Multimodal Learning, Code Generation"
     jy1682:
       name: John Yang
       title: MSE Student
@@ -44,6 +46,7 @@ params:
       github: john-b-yang
       scholar: https://scholar.google.com/citations?user=71G11ksAAAAJ
       twitter: jyangballin
+      interests: "Language Interaction, Multimodal Learning, Neurosymbolic Programs, Dialogue Systems"
     asd:
       name: Ameet Deshpande
       title: PhD Student
@@ -52,6 +55,7 @@ params:
       github: ameet-1997
       scholar: https://scholar.google.co.in/citations?user=332L1coAAAAJ
       twitter: AmeetDeshpande_
+      interests: ""
     hjwang:
       name: Austin H. Wang
       title: PhD Student
@@ -60,6 +64,7 @@ params:
       link: https://ahjwang.github.io/
       github: ahjwang
       scholar: https://scholar.google.com/citations?user=BB4R2_gAAAAJ
+      interests: ""
     jtuyls:
       name: Jens Tuyls
       title: PhD Student
@@ -68,6 +73,7 @@ params:
       github: jens321
       scholar: https://scholar.google.com/citations?user=TPnedXMAAAAJ
       twitter: JensTuyls
+      interests: ""
     hc22:
       name: Howard Chen
       title: PhD Student
@@ -76,6 +82,7 @@ params:
       github: howard50b
       scholar: https://scholar.google.com/citations?user=wsNa_W4AAAAJ
       twitter: __howardchen
+      interests: ""
     runzhey:
       name: Runzhe Yang
       title: PhD Student
@@ -83,6 +90,7 @@ params:
       link: https://runzhe-yang.science/
       github: runzheyang
       twitter: RunzheYang
+      interests: ""
     shunyuy:
       name: Shunyu Yao
       title: PhD Student
@@ -91,6 +99,7 @@ params:
       github: ysymyth
       scholar: https://scholar.google.com/citations?user=qJBXk9cAAAAJ
       twitter: ShunyuYao12
+      interests: ""
     murahari:
       name: Vishvak Murahari
       title: PhD Student
@@ -99,6 +108,7 @@ params:
       github: vmurahari3
       scholar: https://scholar.google.com/citations?user=Y_NYX7MAAAAJ
       twitter: VishvakM
+      interests: ""
     jimmyyang:
       name: Jimmy Yang
       title: PhD Student
@@ -106,11 +116,13 @@ params:
       link: https://sites.google.com/view/tyjimmyyang/home?authuser=0
       scholar: https://scholar.google.com/citations?user=g-hQdY8AAAAJ&hl=en&authuser=1
       twitter: JimmyTYYang1
+      interests: ""
     juanduque:
       name: Juan Duque
       title: MSE Student
       pic: juanduque.jpeg
       link: https://www.linkedin.com/in/juan-duque/
+      interests: "Reinforcement Learning"
     jaquelinehe:
       name: Jacqueline He
 

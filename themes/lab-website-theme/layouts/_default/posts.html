@@ -27,22 +27,41 @@
 					<time>{{ dateFormat "2006-01-02" .Date }} <!-- Don't change date format -->
 						{{- if .Params.authors -}}&bull;&nbsp;{{ end }}
 					</time>
-						{{- range $index, $author := .Params.authors -}}
-							<span class="author-list-badge">
-							<a href="{{ ($.Site.Params.Authors.Get $author).link }}">
-							{{- if ($.Site.Params.Authors.Get $author).pic -}}
-								<img src="/images/people/{{ ($.Site.Params.Authors.Get $author).pic }}" class="author-list-photo"></img>
-							{{- else -}}
-							<defaultphoto style="font-size: 0.94em">😊</defaultphoto> <!-- default photo -->
-							{{ end }}
-							<span class="author-list-name" margin="0" padding="0">{{ ($.Site.Params.Authors.Get $author).name }}</span></a>
-							</span>
-							&nbsp;
+					{{- range $index, $author := .Params.authors -}}
+					<span>
+						<a href="{{ ($.Site.Params.Authors.Get $author).link }}">
+						{{- if ($.Site.Params.Authors.Get $author).pic -}}
+							<img src="/images/people/{{ ($.Site.Params.Authors.Get $author).pic }}" class="author-list-photo"></img>
+						{{- else -}}
+						<defaultphoto style="font-size: 0.94em">😊</defaultphoto> <!-- default photo -->
+						{{ end }}
+						<span class="author-list-name" margin="0" padding="0">{{ ($.Site.Params.Authors.Get $author).name }}</span></a>
+					</span>
+					&nbsp;
+					{{- end -}}
+					{{- if and (eq .Params.post_type "publication") (or .Params.code .Params.link .Params.site) -}}
+					<div style="padding-top:10px;">
+						{{- if .Params.code -}}
+						<span class="supp-tag">
+							<a href="{{ .Params.code }}">GitHub</a>
+						</span>
+						{{ end }}
+						{{- if .Params.link -}}
+						<span class="supp-tag">
+							<a href="{{ .Params.link }}">Paper</a>
+						</span>
+						{{ end }}
+						{{- if .Params.site -}}
+						<span class="supp-tag">
+							<a href="{{ .Params.site }}">Site</a>
+						</span>
 						{{- end -}}
+					</div>
+					{{- end -}}
 				</section>
 				{{ end }}
 			</main>
-			<!-- {{ partial "footer.html" . }} -->
+			{{ partial "footer.html" . }}
 		</div>
 	</body>
 </html>
