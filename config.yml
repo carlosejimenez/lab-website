@@ -10,16 +10,7 @@ params:
       icon: github
       url: https://github.com/princeton-nlp
   authors:
-    sarora:
-      name: Sanjeev Arora
-      title: Professor
-      pic: sanjeev.jpeg
-      link: https://www.cs.princeton.edu/~arora/
-    danqic:
-      name: Danqi Chen
-      title: Assistant Professor
-      pic: danqi.jpeg
-      link: https://www.cs.princeton.edu/~danqic/
+    # Faculty
     karthikn:
       name: Karthik Narasimhan
       title: Assistant Professor
@@ -28,7 +19,44 @@ params:
       github: karthikncode
       scholar: https://scholar.google.com/citations?user=euc0GX4AAAAJ
       twitter: karthik_r_n
-      interests: "Language Interaction, Embodied Language Understanding"
+      interests: "Embodied Language Understanding, Language Guided ML, Representation Learning, RL Safety"
+    anirudhm:
+      name: Anirudha Majumdar
+      title: Assistant Professor
+      pic: anirudhm.jpeg
+      link: https://mae.princeton.edu/people/faculty/majumdar
+    chuangg:
+      name: Chuang Gan
+      title: Assistant Professor
+      pic: chuangg.jpeg
+      link: https://people.csail.mit.edu/ganchuang/ch
+    danqic:
+      name: Danqi Chen
+      title: Assistant Professor
+      pic: danqi.jpeg
+      link: https://www.cs.princeton.edu/~danqic/
+    joshuat:
+      name: Joshua Tenenbaum
+      title: Professor
+      pic: joshuat.jpeg
+      link: http://web.mit.edu/cocosci/josh.html
+    olgarus:
+      name: Olga Russakovsky
+      title: Assistant Professor
+      pic: olgarus.jpeg
+      link: https://www.cs.princeton.edu/~olgarus/
+    ramadge:
+      name: Peter Ramadge
+      title: Professor
+      pic: ramadge.jpeg
+      link: https://ece.princeton.edu/people/peter-j-ramadge
+    sarora:
+      name: Sanjeev Arora
+      title: Professor
+      pic: sanjeev.jpeg
+      link: https://www.cs.princeton.edu/~arora/
+
+    # PhD Students
     carlosej:
       name: Carlos E. Jimenez
       title: PhD Student
@@ -109,6 +137,8 @@ params:
       scholar: https://scholar.google.com/citations?user=Y_NYX7MAAAAJ
       twitter: VishvakM
       interests: ""
+    
+    # Alumni
     jimmyyang:
       name: Jimmy Yang
       title: PhD Student
@@ -123,8 +153,31 @@ params:
       pic: juanduque.jpeg
       link: https://www.linkedin.com/in/juan-duque/
       interests: "Reinforcement Learning"
-    jaquelinehe:
+
+    # Affiliates
+    allenr:
+      name: Allen Z. Ren
+    bharatg:
+      name: Bharat Govil
+    jacquelineh:
       name: Jacqueline He
+      link: https://jacqueline-he.github.io/
+    justinianrosca:
+      name: Justinian P. Rosca
+    moy:
+      name: Mo Yu
+    parthat:
+      name: Partha Talukdar
+    shamk:
+      name: Sham Kakade
+    yangz:
+      name: Yang Zhang
+    yuwu:
+      name: Yu Wu
+    zeyuwang:
+      name: Zeyu Wang
+      pic: zeyuwang.jpeg
+      link: https://www.cs.princeton.edu/~zeyuwang/
 
 menu:
   main:

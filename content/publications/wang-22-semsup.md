@@ -1,6 +1,6 @@
 ---
 title: "Semantic Supervision"
-date: 2022-02-26
+date: 2022-08-26
 draft: false
 post_type: publication
 authors: [hjwang, asd, karthikn]

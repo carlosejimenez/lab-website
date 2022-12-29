@@ -1,9 +1,9 @@
 ---
 title: "CARETS"
-date: 2022-05-23
+date: 2022-04-08
 draft: false
 post_type: publication
-authors: [carlosej, karthikn]
+authors: [carlosej, olgarus, karthikn]
 venue: ACL 2022
 header_emoji: 🥕
 tags: [

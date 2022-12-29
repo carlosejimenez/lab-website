@@ -1,5 +1,5 @@
 ---
-title: "WebShop"
+title: "WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents"
 date: 2022-07-16
 draft: false
 post_type: publication

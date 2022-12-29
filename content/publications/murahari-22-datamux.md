@@ -1,6 +1,6 @@
 ---
-title: "DataMUX"
-date: 2022-02-16
+title: "DataMUX: Data Multiplexing for Neural Networks"
+date: 2022-07-16
 draft: false
 post_type: publication
 authors: [murahari, carlosej, runzhey, karthikn]
