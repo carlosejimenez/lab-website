@@ -70,6 +70,21 @@ params:
       title: Professor
       pic: https://psych.princeton.edu/sites/psychology/files/styles/profile_vertical/public/faculty/tom.jpg?itok=ak4eFx-j
       link: https://psych.princeton.edu/person/tom-griffiths
+    markb:
+      name: Mark Braverman
+      title: Professor
+      pic: https://mbraverm.princeton.edu/media/Braverman-2019-small.jpg#float-left
+      link: https://mbraverm.princeton.edu/
+    shamk:
+      name: Sham Kakade
+      title: Professor
+      pic: https://projects.iq.harvard.edu/files/styles/os_files_xxlarge/public/kakade/files/img-kakade_0.jpg?m=1633542504&itok=6G9MOC5l
+      link: https://sham.seas.harvard.edu/
+    andrewl:
+      name: Andrew S. Lan
+      title: Assistant Professor
+      pic: https://people.umass.edu/~andrewlan/pic/lan.jpeg
+      link: https://people.umass.edu/~andrewlan/
 
     # PhD Students
     carlosej:
@@ -172,10 +187,22 @@ params:
     # Affiliates
     allenr:
       name: Allen Z. Ren
+    berthyf:
+      name: Berthy Feng
+      pic: https://www.berthyfeng.com/images/profile.png
+      link: https://www.berthyfeng.com/
     bharatg:
       name: Bharat Govil
     binghuip:
       name: Binghui Peng
+    cyrilz:
+      name: Cyril Zhang
+      pic: https://www.microsoft.com/en-us/research/uploads/prod/2020/11/msr-cyril-headshot-1k.jpg
+      link: https://cyrilzhang.com/
+    felixy:
+      name: Felix Yu
+      pic: https://www.cs.princeton.edu/~felixy/images/felixy.jpg
+      link: https://www.cs.princeton.edu/~felixy/
     hsuanp:
       name: Hsuan-Tung Peng
     jacquelineh:
@@ -185,6 +212,8 @@ params:
       name: Jingxiao Chen
     justinianrosca:
       name: Justinian P. Rosca
+      pic: https://i1.rgstatic.net/ii/profile.image/272903874805761-1442076762124_Q512/Justinian-Rosca.jpg
+      site: https://scholar.google.com/citations?user=feURfe4AAAAJ&hl=en
     liweis:
       name: Liwei Song
     michaelhu:
@@ -201,6 +230,10 @@ params:
       name: Mo Yu
     parthat:
       name: Partha Talukdar
+    raeids:
+      name: Raeid Saqur
+      pic: https://www.cs.toronto.edu/~raeidsaqur/static/img/profile.jpg
+      link: https://www.cs.toronto.edu/~raeidsaqur/
     roberth:
       name: Robert D. Hawkins
     rohanr:
@@ -209,8 +242,6 @@ params:
       name: Theodore R. Sumers
       pic: https://cocosci.princeton.edu/images/ted-1.png
       link: https://www.tedsumers.info/
-    shamk:
-      name: Sham Kakade
     sidaw:
       name: Sida I. Wang
     victorz:
@@ -219,16 +250,28 @@ params:
       link: https://www.victorzhong.com/
     xinweiy:
       name: Xinwei Yu
+    xinyic:
+      name: Xinyi Chen
+      pic: https://xinyi.github.io/assets/photo_1.jpg
+      link: https://xinyi.github.io/
     yangz:
       name: Yang Zhang
     yinlamc:
       name: Yinlam Chow
+    yizhang:
+      name: Yi Zhang
+      pic: https://static.wixstatic.com/media/9a5322_38748aa7f9d34fe1b686d6ee90f89c4c~mv2.jpeg/v1/crop/x_0,y_0,w_1866,h_2415/fill/w_400,h_452,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/profile_photo.jpeg
+      link: https://www.yi-zhang.me/
     yuwu:
       name: Yu Wu
     zeyuwang:
       name: Zeyu Wang
       pic: https://www.cs.princeton.edu/~zeyuwang/images/photo_v2.jpg
       link: https://www.cs.princeton.edu/~zeyuwang/
+    zhiweid:
+      name: Zhiwei Deng
+      pic: https://www.cs.princeton.edu/~zhiweid/images/zhiweid.jpg
+      link: https://www.cs.princeton.edu/~zhiweid/
 
 menu:
   main:
