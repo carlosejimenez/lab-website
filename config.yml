@@ -20,6 +20,21 @@ params:
       scholar: https://scholar.google.com/citations?user=euc0GX4AAAAJ
       twitter: karthik_r_n
       interests: "Embodied Language Understanding, Language Guided ML, Representation Learning, RL Safety"
+    danqic:
+      name: Danqi Chen
+      title: Assistant Professor
+      pic: danqi.jpeg
+      link: https://www.cs.princeton.edu/~danqic/
+    sarora:
+      name: Sanjeev Arora
+      title: Professor
+      pic: sanjeev.jpeg
+      link: https://www.cs.princeton.edu/~arora/
+    olgarus:
+      name: Olga Russakovsky
+      title: Assistant Professor
+      pic: https://www.cs.princeton.edu/~olgarus/photos/OlgaRussakovsky.JPG
+      link: https://www.cs.princeton.edu/~olgarus/
     anirudhm:
       name: Anirudha Majumdar
       title: Assistant Professor
@@ -30,31 +45,31 @@ params:
       title: Assistant Professor
       pic: https://people.csail.mit.edu/ganchuang/imgs/portrait.jpg
       link: https://people.csail.mit.edu/ganchuang/ch
-    danqic:
-      name: Danqi Chen
-      title: Assistant Professor
-      pic: danqi.jpeg
-      link: https://www.cs.princeton.edu/~danqic/
     joshuat:
       name: Joshua Tenenbaum
       title: Professor
       pic: https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRZcUwgGbxnoHdQMOqn66N8Q3QvURo2LGc5T-Pn9J2LbUaaoe3p
       link: http://web.mit.edu/cocosci/josh.html
-    olgarus:
-      name: Olga Russakovsky
-      title: Assistant Professor
-      pic: https://www.cs.princeton.edu/~olgarus/photos/OlgaRussakovsky.JPG
-      link: https://www.cs.princeton.edu/~olgarus/
     ramadge:
       name: Peter Ramadge
       title: Professor
       pic: https://ece.princeton.edu/sites/g/files/toruqf1836/files/styles/3x4_750w_1000h/public/ramadge-p.jpg?itok=Md1sQ0if
       link: https://ece.princeton.edu/people/peter-j-ramadge
-    sarora:
-      name: Sanjeev Arora
+    lukez:
+      name: Luke Zettlemoyer
       title: Professor
-      pic: sanjeev.jpeg
-      link: https://www.cs.princeton.edu/~arora/
+      pic: https://s3-us-west-2.amazonaws.com/www-cse-public/images/portraits/lsz_sm.jpg
+      link: https://www.cs.washington.edu/people/faculty/lsz
+    christosp:
+      name: Christos Papadimitriou
+      title: Professor
+      pic: https://ieeecs-media.computer.org/wp-media/2022/02/25182218/christos.jpg
+      link: https://www.engineering.columbia.edu/faculty/christos-papadimitriou
+    thomasg:
+      name: Thomas L. Griffiths
+      title: Professor
+      pic: https://psych.princeton.edu/sites/psychology/files/styles/profile_vertical/public/faculty/tom.jpg?itok=ak4eFx-j
+      link: https://psych.princeton.edu/person/tom-griffiths
 
     # PhD Students
     carlosej:
@@ -159,19 +174,55 @@ params:
       name: Allen Z. Ren
     bharatg:
       name: Bharat Govil
+    binghuip:
+      name: Binghui Peng
+    hsuanp:
+      name: Hsuan-Tung Peng
     jacquelineh:
       name: Jacqueline He
       link: https://jacqueline-he.github.io/
+    jingxiaoc:
+      name: Jingxiao Chen
     justinianrosca:
       name: Justinian P. Rosca
+    liweis:
+      name: Liwei Song
+    michaelhu:
+      name: Michael Hu
+      pic: https://michahu.github.io/assets/img/IMG_1080.png
+      link: https://michahu.github.io/
+    matthewh:
+      name: Matthew Hausknecht
+      pic: https://mhauskn.github.io/assets/img/bio-photo.jpg
+      link: https://mhauskn.github.io/
+    markh:
+      name: Mark K. Ho
     moy:
       name: Mo Yu
     parthat:
       name: Partha Talukdar
+    roberth:
+      name: Robert D. Hawkins
+    rohanr:
+      name: Rohan Rao
+    teds:
+      name: Theodore R. Sumers
+      pic: https://cocosci.princeton.edu/images/ted-1.png
+      link: https://www.tedsumers.info/
     shamk:
       name: Sham Kakade
+    sidaw:
+      name: Sida I. Wang
+    victorz:
+      name: Victor Zhong
+      pic: https://avatars.githubusercontent.com/u/1855260?v=4
+      link: https://www.victorzhong.com/
+    xinweiy:
+      name: Xinwei Yu
     yangz:
       name: Yang Zhang
+    yinlamc:
+      name: Yinlam Chow
     yuwu:
       name: Yu Wu
     zeyuwang:

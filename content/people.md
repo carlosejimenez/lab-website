@@ -17,6 +17,7 @@ alumni:
   [
     jimmyyang,
     juanduque,
+    michaelhu,
   ]
 layout: "people"
 ---
