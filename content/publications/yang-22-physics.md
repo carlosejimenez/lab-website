@@ -1,6 +1,6 @@
 ---
 title: "Learning Physics Constrained Dynamics Using Autoencoders"
-date: 2022-06-16
+date: 2022-07-07
 draft: false
 post_type: publication
 authors: [jimmyyang, justinianrosca, karthikn, ramadge]

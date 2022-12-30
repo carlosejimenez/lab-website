@@ -85,6 +85,16 @@ params:
       title: Assistant Professor
       pic: https://people.umass.edu/~andrewlan/pic/lan.jpeg
       link: https://people.umass.edu/~andrewlan/
+    nathand:
+      name: Nathaniel D. Daw
+      title: Professor
+      pic: https://www.princeton.edu/~ndaw/me2.jpg
+      link: https://www.princeton.edu/~ndaw/
+    jonathanc:
+      name: Jonathan D. Cohen
+      title: Professor
+      pic: https://pni.princeton.edu/sites/default/files/styles/people_directory/public/images/faculty-details/johnathan-cohen.jpg?itok=qDU9onfw
+      link: https://pni.princeton.edu/faculty/jonathan-cohen
 
     # PhD Students
     carlosej:
@@ -195,6 +205,10 @@ params:
       name: Bharat Govil
     binghuip:
       name: Binghui Peng
+    carlosc:
+      name: Carlos Correa
+      pic: https://carlos.correa.me/static/cgc.jpg
+      link: https://carlos.correa.me/about/
     cyrilz:
       name: Cyril Zhang
       pic: https://www.microsoft.com/en-us/research/uploads/prod/2020/11/msr-cyril-headshot-1k.jpg
@@ -205,6 +219,10 @@ params:
       link: https://www.cs.princeton.edu/~felixy/
     hsuanp:
       name: Hsuan-Tung Peng
+    ishitad:
+      name: Ishita Dasgupta
+      pic: https://ishita-dg.github.io/scholar_photo.jpeg
+      link: https://ishita-dg.github.io/
     jacquelineh:
       name: Jacqueline He
       link: https://jacqueline-he.github.io/
@@ -234,8 +252,14 @@ params:
       name: Raeid Saqur
       pic: https://www.cs.toronto.edu/~raeidsaqur/static/img/profile.jpg
       link: https://www.cs.toronto.edu/~raeidsaqur/
+    rajam:
+      name: Raja Marjieh
+      pic: https://psych.princeton.edu/sites/psychology/files/styles/psych_profile_listing/public/faculty/RajaMarjieh.jpg?itok=y3iNoWeM
+      link: https://psych.princeton.edu/event/raja-marjieh-phd-candidate-princeton-university-0
     roberth:
       name: Robert D. Hawkins
+      pic: https://rxdhawkins.files.wordpress.com/2019/12/2efa8952-50ee-4bb5-8f5f-f3eb14752dfe_1_201_a-e1575951441133.jpeg?w=620
+      link: https://rxdhawkins.com/
     rohanr:
       name: Rohan Rao
     teds:
@@ -244,10 +268,18 @@ params:
       link: https://www.tedsumers.info/
     sidaw:
       name: Sida I. Wang
+    sreejank:
+      name: Sreejan Kumar
+      pic: https://pni.princeton.edu/sites/default/files/styles/people_directory/public/images/students-directory/Sreejan%20Kumar1.png?itok=Sl9H731C
+      link: https://sites.google.com/site/sreejankumar97
     victorz:
       name: Victor Zhong
       pic: https://avatars.githubusercontent.com/u/1855260?v=4
       link: https://www.victorzhong.com/
+    xingyuans:
+      name: Xingyuan Sun
+      pic: https://xingyuansun.com/images/profilepic.png
+      link: https://xingyuansun.com/
     xinweiy:
       name: Xinwei Yu
     xinyic:
@@ -256,6 +288,10 @@ params:
       link: https://xinyi.github.io/
     yangz:
       name: Yang Zhang
+    yilund:
+      name: Yilun Du
+      pic: https://yilundu.github.io/images/yilun3.png
+      link: https://yilundu.github.io/
     yinlamc:
       name: Yinlam Chow
     yizhang:
