@@ -34,7 +34,15 @@
 					<span>
 						<a href="{{ ($.Site.Params.Authors.Get $author).link }}">
 						{{- if ($.Site.Params.Authors.Get $author).pic -}}
-							<img src="/images/people/{{ ($.Site.Params.Authors.Get $author).pic }}" class="author-list-photo"></img>
+							{{- if in ($.Site.Params.Authors.Get $author).pic "http" -}}
+							<img class="author-list-photo"
+								src="{{ ($.Site.Params.Authors.Get $author).pic }}"
+							/>
+							{{- else -}}
+							<img class="author-list-photo"
+								src="/images/people/{{ ($.Site.Params.Authors.Get $author).pic }}"
+							/>
+							{{- end -}}
 						{{- else -}}
 						<defaultphoto style="font-size: 0.94em">😊</defaultphoto> <!-- default photo -->
 						{{ end }}

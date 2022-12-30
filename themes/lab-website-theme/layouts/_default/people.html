@@ -11,7 +11,7 @@
     <div class="people-box">
       <div class="people-box-image">
         {{- if ($.Site.Params.Authors.Get $person).pic -}}
-        {{ if in ($.Site.Params.Authors.Get $person).pic "/"}}
+        {{- if in ($.Site.Params.Authors.Get $person).pic "http" -}}
         <img
           class="people-page-photo"
           src="{{ ($.Site.Params.Authors.Get $person).pic }}"
@@ -20,7 +20,7 @@
         <img class="people-page-photo"
           src="/images/people/{{ ($.Site.Params.Authors.Get $person).pic }}"
         />
-        {{ end }}
+        {{- end -}}
         {{- else -}}
         <img class="people-page-photo"
           src="/images/people/default-photo.png"
@@ -76,7 +76,7 @@
     <div class="people-box">
       <div class="people-box-image">
         {{- if ($.Site.Params.Authors.Get $person).pic -}}
-        {{ if in ($.Site.Params.Authors.Get $person).pic "/"}}
+        {{- if in ($.Site.Params.Authors.Get $person).pic "http" -}}
         <img
           class="people-page-photo"
           src="{{ ($.Site.Params.Authors.Get $person).pic }}"
@@ -86,7 +86,7 @@
           class="people-page-photo"
           src="/images/people/{{ ($.Site.Params.Authors.Get $person).pic }}"
         />
-        {{ end }}
+        {{- end -}}
         {{- else -}}
         <defaultphoto>😊</defaultphoto>
         {{ end }}

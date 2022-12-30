@@ -23,12 +23,12 @@ params:
     anirudhm:
       name: Anirudha Majumdar
       title: Assistant Professor
-      pic: anirudhm.jpeg
+      pic: https://mae.princeton.edu/sites/default/files/Majumdar-min_1.jpg
       link: https://mae.princeton.edu/people/faculty/majumdar
     chuangg:
       name: Chuang Gan
       title: Assistant Professor
-      pic: chuangg.jpeg
+      pic: https://people.csail.mit.edu/ganchuang/imgs/portrait.jpg
       link: https://people.csail.mit.edu/ganchuang/ch
     danqic:
       name: Danqi Chen
@@ -38,17 +38,17 @@ params:
     joshuat:
       name: Joshua Tenenbaum
       title: Professor
-      pic: joshuat.jpeg
+      pic: https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRZcUwgGbxnoHdQMOqn66N8Q3QvURo2LGc5T-Pn9J2LbUaaoe3p
       link: http://web.mit.edu/cocosci/josh.html
     olgarus:
       name: Olga Russakovsky
       title: Assistant Professor
-      pic: olgarus.jpeg
+      pic: https://www.cs.princeton.edu/~olgarus/photos/OlgaRussakovsky.JPG
       link: https://www.cs.princeton.edu/~olgarus/
     ramadge:
       name: Peter Ramadge
       title: Professor
-      pic: ramadge.jpeg
+      pic: https://ece.princeton.edu/sites/g/files/toruqf1836/files/styles/3x4_750w_1000h/public/ramadge-p.jpg?itok=Md1sQ0if
       link: https://ece.princeton.edu/people/peter-j-ramadge
     sarora:
       name: Sanjeev Arora
@@ -176,7 +176,7 @@ params:
       name: Yu Wu
     zeyuwang:
       name: Zeyu Wang
-      pic: zeyuwang.jpeg
+      pic: https://www.cs.princeton.edu/~zeyuwang/images/photo_v2.jpg
       link: https://www.cs.princeton.edu/~zeyuwang/
 
 menu:
