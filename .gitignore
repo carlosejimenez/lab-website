@@ -1,4 +1,4 @@
 .prettierignore
 .vscode
-
+.hugo_build.lock
 *.DS_Store
