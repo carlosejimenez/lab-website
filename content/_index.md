@@ -8,6 +8,16 @@
 * 2020/08: We welcome a group of new graduate students joining us this fall: Carlos, Howard, Jens, and Vishvak!
 
 ### About Us
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+We work on methods for machine understanding of language, in order to both make intelligent decisions and communicate effectively with people. Our lab's research spans natural language processing (NLP), reinforcemtne learning, deep learning, and machine learning.
+
 
 ![Group Photo](/images/group.jpeg)
+
+### Joining the Lab
+We are always looking for new students to join our lab. 
+
+#### Prospective PhD students
+We take on new PhD students on a yearly basis. We ask that you do not contact us directly with regard to PhD admissions until after you are admitted, as we will not be able to reply to emails from individual applicants.
+
+#### Princeton Undergraduate or MS students
+Please read and fill out this [form](https://forms.gle/fJ6AdYYzvdpfpTH98).
