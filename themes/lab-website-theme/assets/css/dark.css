@@ -51,7 +51,7 @@ h6 {
 }
 
 a {
-  color: inherit;
+  color: var(--dark-linkcolor);
 }
 .post-separator {
   border: 1px solid var(--dark-text-color);

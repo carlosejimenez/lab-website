@@ -4,13 +4,17 @@
 --bordercl: #FFA45E;
 --callouctcolor:dodgerblue;
 --hovercolor:#FFA45E;
+/* --linkcolor:#132964; */
+--linkcolor:#132964;
+--dark-linkcolor:#FFE8D7;
 --darkMaincolor: #FFA45E;
 
 --dark-background-color: #101729;
 --dark-text-color: #F6FAFF;
 
 --light-background-color: #F6FAFF;
---light-text-color: #132964;
+--light-text-color: #30619D;
+/* --light-text-color: #A6AAFF; */
 
 --title-size: 30px;
 
@@ -64,10 +68,8 @@ blockquote {
 }
 
 a {
-  /* border-bottom: 3px solid var(--maincolor); */
-  color: inherit;
+  color: var(--linkcolor);
   text-decoration: none;
-  border-radius: 0.25em;
 }
 a:hover {
     /* background-color: var(--hovercolor); */
