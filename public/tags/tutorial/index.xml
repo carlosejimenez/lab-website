@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorial on Karthik Narasimhan&#39;s Lab</title>
+    <link>http://example.org/tags/tutorial/</link>
+    <description>Recent content in Tutorial on Karthik Narasimhan&#39;s Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Example Post</title>
+      <link>http://example.org/posts/example/</link>
+      <pubDate>Wed, 14 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/example/</guid>
+      <description>Abstract Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo donec enim diam vulputate. Accumsan tortor posuere ac ut consequat.
+Results Example of images Image 2 Example of code snippet**
+# Python code with syntax highlighting def function(): print(&amp;#34;Hello World&amp;#34;) Example of mathematical expressions
+This template includes the MathJax library for rendering mathemtical formulas. It supports TeX/LaTeX input. Check out the documentation for more guidance on how to write expressions appropriate for your paper.</description>
+    </item>
+    
+  </channel>
+</rss>

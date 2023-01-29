@@ -1,6 +1,6 @@
-# 🤖 KLEAR Website
+# 🤖 Karthik Narasimhan's Lab Website
 
-Website code for KLEAR, a research team at Princeton University run by [Karthik Narasimhan](https://www.cs.princeton.edu/~karthikn/) studying natural language processing.
+Website code for a research team at Princeton University run by [Karthik Narasimhan](https://www.cs.princeton.edu/~karthikn/) studying natural language processing.
 
 Built on top of [Archie](https://github.com/athul/archie) theme, based on [Hugo](https://gohugo.io/) framework.
 

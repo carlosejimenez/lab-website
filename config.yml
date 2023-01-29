@@ -1,6 +1,6 @@
 baseURL: "http://example.org/"
 languageCode: en-us
-title: KLEAR
+title: Karthik Narasimhan's Lab
 theme: lab-website-theme
 favicon: favicon.ico
 params:

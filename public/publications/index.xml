@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Karthik Narasimhan&#39;s Lab</title>
+    <link>http://example.org/publications/</link>
+    <description>Recent content in Publications on Karthik Narasimhan&#39;s Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/publications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Semantic Supervision</title>
+      <link>http://example.org/publications/wang-22-semsup/</link>
+      <pubDate>Fri, 26 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/wang-22-semsup/</guid>
+      <description>In this paper, we propose Semantic Supervision (SemSup) - a unified paradigm for training classifiers that generalize over output spaces. In contrast to standard classification, which treats classes as discrete symbols, SemSup represents them as dense vector features obtained from descriptions of classes (e.g., &amp;ldquo;The cat is a small carnivorous mammal&amp;rdquo;). This allows the output space to be unbounded (in the space of descriptions) and enables models to generalize both over unseen inputs and unseen outputs (e.</description>
+    </item>
+    
+    <item>
+      <title>Using Natural Language and Program Abstractions to Instill Human Inductive Biases in Machines</title>
+      <link>http://example.org/publications/kumar-22-neurips/</link>
+      <pubDate>Fri, 19 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/kumar-22-neurips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DataMUX: Data Multiplexing for Neural Networks</title>
+      <link>http://example.org/publications/murahari-22-datamux/</link>
+      <pubDate>Sat, 16 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/murahari-22-datamux/</guid>
+      <description>In this paper, we introduce data multiplexing (DataMUX), a technique that enables deep neural networks to process multiple inputs simultaneously using a single compact representation. DataMUX demonstrates that neural networks are capable of generating accurate predictions over mixtures of inputs, resulting in increased throughput with minimal extra memory requirements. Our approach uses two key components &amp;ndash; 1) a multiplexing layer that performs a fixed linear transformation to each input before combining them to create a mixed representation of the same size as a single input, which is then processed by the base network, and 2) a demultiplexing layer that converts the base network&amp;rsquo;s output back into independent representations before producing predictions for each input.</description>
+    </item>
+    
+    <item>
+      <title>WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents</title>
+      <link>http://example.org/publications/yao-22-webshop/</link>
+      <pubDate>Sat, 16 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/yao-22-webshop/</guid>
+      <description>Existing benchmarks for grounding language in interactive environments either lack real-world linguistic elements, or prove difficult to scale up due to substantial human involvement in the collection of data or feedback signals. To bridge this gap, we develop WebShop – a simulated e-commerce website environment with 1.18 million real-world products and 12,087 crowd-sourced text instructions. Given a text instruction specifying a product requirement, an agent needs to navigate multiple types of webpages and issue diverse actions to find, customize, and purchase an item.</description>
+    </item>
+    
+    <item>
+      <title>Learning Physics Constrained Dynamics Using Autoencoders</title>
+      <link>http://example.org/publications/yang-22-physics/</link>
+      <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/yang-22-physics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards an Enhanced, Faithful, and Adaptable Web Interaction Environment</title>
+      <link>http://example.org/publications/yang-22-larel/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/yang-22-larel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leveraging Language for Accelerated Learning of Tool Manipulation</title>
+      <link>http://example.org/publications/ren-22-corl/</link>
+      <pubDate>Tue, 17 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/ren-22-corl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-query Video Retrieval</title>
+      <link>http://example.org/publications/wang-22-video/</link>
+      <pubDate>Tue, 17 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/wang-22-video/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Can Rationalization Improve Robustness?</title>
+      <link>http://example.org/publications/chen-22-rational/</link>
+      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/chen-22-rational/</guid>
+      <description>A growing line of work has investigated the development of neural NLP models that can produce rationales–subsets of input that can explain their model predictions. In this paper, we ask whether such rationale models can also provide robustness to adversarial attacks in addition to their interpretable nature. Since these models need to first generate rationales (&amp;ldquo;rationalizer&amp;rdquo;) before making predictions (&amp;ldquo;predictor&amp;rdquo;), they have the potential to ignore noise or adversarially added text by simply masking it out of the generated rationale.</description>
+    </item>
+    
+    <item>
+      <title>When is BERT Multilingual? Isolating Crucial Ingredients for Cross-lingual Transfer</title>
+      <link>http://example.org/publications/deshpande-22-naacl/</link>
+      <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/deshpande-22-naacl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CARETS</title>
+      <link>http://example.org/publications/carlosej-21-carets/</link>
+      <pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/carlosej-21-carets/</guid>
+      <description>We introduce CARETS, a systematic test suite to measure consistency and robustness of modern VQA models through a series of six fine-grained capability tests. In contrast to existing VQA test sets, CARETS features balanced question generation to create pairs of instances to test models, with each pair focusing on a specific capability such as rephrasing, logical symmetry or image obfuscation. We evaluate six modern VQA systems on CARETS and identify several actionable weaknesses in model comprehension, especially with concepts such as negation, disjunction, or hypernym invariance.</description>
+    </item>
+    
+    <item>
+      <title>Multi-Stage Episodic Control for Strategic Exploration in Text Games</title>
+      <link>http://example.org/publications/tuyls-22-iclr/</link>
+      <pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/tuyls-22-iclr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linking Emergent and Natural Languages via Corpus Transfer</title>
+      <link>http://example.org/publications/yao-22-iclr/</link>
+      <pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/yao-22-iclr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SILG: The Multi-environment Symbolic Interactive Language Grounding Benchmark</title>
+      <link>http://example.org/publications/wang-21-silg/</link>
+      <pubDate>Sun, 22 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/wang-21-silg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Safe Reinforcement Learning with Natural Language Constraints</title>
+      <link>http://example.org/publications/yang-21-neurips/</link>
+      <pubDate>Mon, 16 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/yang-21-neurips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Grounding Language to Entities and Dynamics for Generalization in Reinforcement Learning</title>
+      <link>http://example.org/publications/wang-21-icml/</link>
+      <pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/wang-21-icml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Accelerating Safe Reinforcement Learning with Constraint-mismatched Policies</title>
+      <link>http://example.org/publications/yang-21-icml/</link>
+      <pubDate>Wed, 02 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/yang-21-icml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Improving Dialog Systems for Negotiation with Personality Modeling</title>
+      <link>http://example.org/publications/yang-21-acl/</link>
+      <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/yang-21-acl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Self-Attention Networks Can Process Bounded Hierarchical Languages</title>
+      <link>http://example.org/publications/yao-21-acl/</link>
+      <pubDate>Mon, 17 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/yao-21-acl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reading and Acting while Blindfolded: The Need for Semantics in Text Game Agents</title>
+      <link>http://example.org/publications/yao-21-naacl/</link>
+      <pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/yao-21-naacl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Universal Adversarial Attacks with Natural Triggers for Text Classification</title>
+      <link>http://example.org/publications/song-21-naacl/</link>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/song-21-naacl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Rewards from Linguistic Feedback</title>
+      <link>http://example.org/publications/sumers-21-aaai/</link>
+      <pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/sumers-21-aaai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>m-Stage Epsilon-Greedy Exploration for Reinforcement Learning</title>
+      <link>http://example.org/publications/yao-21-aaai/</link>
+      <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/yao-21-aaai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Keep CALM and Explore: Language Models for Action Generation in Text-based Games</title>
+      <link>http://example.org/publications/yao-20-emnlp/</link>
+      <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/yao-20-emnlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Guiding Attention for Self-Supervised Learning with Transformers</title>
+      <link>http://example.org/publications/asd-20-emnlp/</link>
+      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/asd-20-emnlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust and Interpretable Grounding of Spatial References with Relation Networks</title>
+      <link>http://example.org/publications/yang-20-emnlp/</link>
+      <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/yang-20-emnlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multimodal Graph Networks for Compositional Generalization in Visual Question Answering</title>
+      <link>http://example.org/publications/saqur-20-neurips/</link>
+      <pubDate>Thu, 23 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/saqur-20-neurips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evolving Graphical Planner: Contextual Global Planning for Vision-and-Language Navigation</title>
+      <link>http://example.org/publications/deng-20-neurips/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/deng-20-neurips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Unique and Informative Captioning of Images</title>
+      <link>http://example.org/publications/wang-2020-eccv/</link>
+      <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/wang-2020-eccv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Calibration, Entropy Rates, and Memory in Language Models</title>
+      <link>http://example.org/publications/braverman-20-icml/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/braverman-20-icml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projection Based Constrained Policy Optimization</title>
+      <link>http://example.org/publications/yang-20-iclr/</link>
+      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/yang-20-iclr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Take the scenic route: improving generalization in vision-and-language navigation</title>
+      <link>http://example.org/publications/xu-2020-cvpr/</link>
+      <pubDate>Fri, 15 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/xu-2020-cvpr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Generalized Algorithm for Multi-Objective Reinforcement Learning and Policy Adaptation</title>
+      <link>http://example.org/publications/yang-19-neurips/</link>
+      <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/yang-19-neurips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Task-Agnostic Dynamics Priors for Deep Reinforcement Learning</title>
+      <link>http://example.org/publications/du-19-icml/</link>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/du-19-icml/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

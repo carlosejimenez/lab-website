@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html><head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Semantic Supervision - Karthik Narasimhan&#39;s Lab</title><link rel="icon" type="image/png" href="/images/favicon.ico">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="In this paper, we propose Semantic Supervision (SemSup) - a unified paradigm for training classifiers that generalize over output spaces. In contrast to standard classification, which treats classes as discrete symbols, SemSup represents them as dense vector features obtained from descriptions of classes (e.g., &ldquo;The cat is a small carnivorous mammal&rdquo;). This allows the output space to be unbounded (in the space of descriptions) and enables models to generalize both over unseen inputs and unseen outputs (e." />
+	<meta property="og:image" content=""/>
+	<meta property="og:title" content="Semantic Supervision" />
+<meta property="og:description" content="In this paper, we propose Semantic Supervision (SemSup) - a unified paradigm for training classifiers that generalize over output spaces. In contrast to standard classification, which treats classes as discrete symbols, SemSup represents them as dense vector features obtained from descriptions of classes (e.g., &ldquo;The cat is a small carnivorous mammal&rdquo;). This allows the output space to be unbounded (in the space of descriptions) and enables models to generalize both over unseen inputs and unseen outputs (e." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/publications/wang-22-semsup/" /><meta property="article:section" content="publications" />
+<meta property="article:published_time" content="2022-08-26T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-08-26T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Semantic Supervision"/>
+<meta name="twitter:description" content="In this paper, we propose Semantic Supervision (SemSup) - a unified paradigm for training classifiers that generalize over output spaces. In contrast to standard classification, which treats classes as discrete symbols, SemSup represents them as dense vector features obtained from descriptions of classes (e.g., &ldquo;The cat is a small carnivorous mammal&rdquo;). This allows the output space to be unbounded (in the space of descriptions) and enables models to generalize both over unseen inputs and unseen outputs (e."/>
+<script src="http://example.org/js/feather.min.js"></script>
+	
+	
+        <link href="http://example.org/css/fonts.1f07d2398f08441d78602c672fb8cb2a0e9a2395c03b8d547ffbf1c8787e4dc6.css" rel="stylesheet">
+	
+
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="http://example.org/css/main.a7c0f144c33cc899db2a6bf2ed45af562fb88f5e218ca285f11e73d18f555b64.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://example.org/css/dark.2e992fe869b44f61fe1cc8a1ffb970084d2fc4a2bfb9d0f30cece368875edd65.css"  disabled />
+	
+	
+	
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="http://example.org/">Karthik Narasimhan&#39;s Lab</a>
+	</div>
+	<nav>
+		
+		<a href="/posts">All Posts</a>&nbsp;&nbsp;&nbsp;
+		
+		<a href="/publications">Publications</a>&nbsp;&nbsp;&nbsp;
+		
+		<a href="/people">People</a>&nbsp;&nbsp;&nbsp;
+		
+		<a href="/tags">Tags</a>&nbsp;&nbsp;&nbsp;
+		
+		| <a id="dark-mode-toggle" onclick="toggleTheme()" href="">&nbsp;&nbsp;&nbsp;</a>
+		<script src="http://example.org/js/themetoggle.js"></script>
+		
+	</nav>
+</header>
+
+
+<main>
+	<article class="content-box">
+		<div>
+			<h1 style="margin-top:0.5em" class="title" >Semantic Supervision</h1>
+			<div class="meta">Posted on Aug 26, 2022</div>
+			<div style="padding-top:10px"><span>
+						<a href="https://ahjwang.github.io/"><img class="author-list-photo"
+								src="/images/people/hjwang.png"
+							/>
+						<span class="author-list-name" margin="0" padding="0">Austin H. Wang</span></a>
+					</span>
+					&nbsp;<span>
+						<a href="https://ameet-1997.github.io/"><img class="author-list-photo"
+								src="/images/people/asd.jpg"
+							/>
+						<span class="author-list-name" margin="0" padding="0">Ameet Deshpande</span></a>
+					</span>
+					&nbsp;<span>
+						<a href="https://www.cs.princeton.edu/~karthikn/"><img class="author-list-photo"
+								src="/images/people/karthikn.jpeg"
+							/>
+						<span class="author-list-name" margin="0" padding="0">Karthik Narasimhan</span></a>
+					</span>
+					&nbsp;</div><div style="padding-top:10px;"><span class="supp-tag">
+					<a href="https://github.com/princeton-nlp/semsup">GitHub</a>
+				</span>
+				<span class="supp-tag">
+					<a href="https://arxiv.org/abs/2202.13100">Paper</a>
+				</span>
+				<span class="supp-tag">
+					<a href="https://sites.google.com/princeton.edu/semantic-supervision/">Site</a>
+				</span></div>
+		</div>
+		<hr class="post-separator"/>
+		<section class="body post-content">
+			<p>In this paper, we propose Semantic Supervision (SemSup) - a unified paradigm for training classifiers that generalize over output spaces. In contrast to standard classification, which treats classes as discrete symbols, SemSup represents them as dense vector features obtained from descriptions of classes (e.g., &ldquo;The cat is a small carnivorous mammal&rdquo;). This allows the output space to be unbounded (in the space of descriptions) and enables models to generalize both over unseen inputs and unseen outputs (e.g. &ldquo;The aardvark is a nocturnal burrowing mammal with long ears&rdquo;). Specifically, SemSup enables four types of generalization, to – (1) unseen class descriptions, (2) unseen classes, (3) unseen super-classes, and (4) unseen tasks. Through experiments on four classification datasets across two variants (multi-class and multi-label), two input modalities (text and images), and two output description modalities (text and JSON), we show that our SemSup models significantly outperform standard supervised models and existing models that leverage word embeddings over class names. For instance, our model outperforms baselines by 40% and 20% precision points on unseen descriptions and classes, respectively, on a news categorization dataset (RCV1). SemSup can serve as a pathway for scaling neural models to large unbounded output spaces and enabling better generalization and model reuse for unseen tasks and domains.</p>
+
+		</section>
+	</article>
+	
+	<script
+		type="text/javascript"
+		async
+		src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"
+	>
+	</script>
+</main>
+
+
+
+<script>
+  feather.replace()
+</script></div>
+    </body>
+</html>

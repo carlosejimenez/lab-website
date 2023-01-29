@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computational Engineering on Karthik Narasimhan&#39;s Lab</title>
+    <link>http://example.org/tags/computational-engineering/</link>
+    <description>Recent content in Computational Engineering on Karthik Narasimhan&#39;s Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/computational-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DataMUX: Data Multiplexing for Neural Networks</title>
+      <link>http://example.org/posts/publications/murahari-22-datamux/</link>
+      <pubDate>Sat, 16 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/publications/murahari-22-datamux/</guid>
+      <description>In this paper, we introduce data multiplexing (DataMUX), a technique that enables deep neural networks to process multiple inputs simultaneously using a single compact representation. DataMUX demonstrates that neural networks are capable of generating accurate predictions over mixtures of inputs, resulting in increased throughput with minimal extra memory requirements. Our approach uses two key components &amp;ndash; 1) a multiplexing layer that performs a fixed linear transformation to each input before combining them to create a mixed representation of the same size as a single input, which is then processed by the base network, and 2) a demultiplexing layer that converts the base network&amp;rsquo;s output back into independent representations before producing predictions for each input.</description>
+    </item>
+    
+    <item>
+      <title>DataMUX: Data Multiplexing for Neural Networks</title>
+      <link>http://example.org/publications/murahari-22-datamux/</link>
+      <pubDate>Sat, 16 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/murahari-22-datamux/</guid>
+      <description>In this paper, we introduce data multiplexing (DataMUX), a technique that enables deep neural networks to process multiple inputs simultaneously using a single compact representation. DataMUX demonstrates that neural networks are capable of generating accurate predictions over mixtures of inputs, resulting in increased throughput with minimal extra memory requirements. Our approach uses two key components &amp;ndash; 1) a multiplexing layer that performs a fixed linear transformation to each input before combining them to create a mixed representation of the same size as a single input, which is then processed by the base network, and 2) a demultiplexing layer that converts the base network&amp;rsquo;s output back into independent representations before producing predictions for each input.</description>
+    </item>
+    
+  </channel>
+</rss>

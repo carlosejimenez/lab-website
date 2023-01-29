@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RL on Karthik Narasimhan&#39;s Lab</title>
+    <link>http://example.org/tags/rl/</link>
+    <description>Recent content in RL on Karthik Narasimhan&#39;s Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/rl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents</title>
+      <link>http://example.org/posts/publications/yao-22-webshop/</link>
+      <pubDate>Sat, 16 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/publications/yao-22-webshop/</guid>
+      <description>Existing benchmarks for grounding language in interactive environments either lack real-world linguistic elements, or prove difficult to scale up due to substantial human involvement in the collection of data or feedback signals. To bridge this gap, we develop WebShop – a simulated e-commerce website environment with 1.18 million real-world products and 12,087 crowd-sourced text instructions. Given a text instruction specifying a product requirement, an agent needs to navigate multiple types of webpages and issue diverse actions to find, customize, and purchase an item.</description>
+    </item>
+    
+    <item>
+      <title>WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents</title>
+      <link>http://example.org/publications/yao-22-webshop/</link>
+      <pubDate>Sat, 16 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/yao-22-webshop/</guid>
+      <description>Existing benchmarks for grounding language in interactive environments either lack real-world linguistic elements, or prove difficult to scale up due to substantial human involvement in the collection of data or feedback signals. To bridge this gap, we develop WebShop – a simulated e-commerce website environment with 1.18 million real-world products and 12,087 crowd-sourced text instructions. Given a text instruction specifying a product requirement, an agent needs to navigate multiple types of webpages and issue diverse actions to find, customize, and purchase an item.</description>
+    </item>
+    
+    <item>
+      <title>Learning Physics Constrained Dynamics Using Autoencoders</title>
+      <link>http://example.org/posts/publications/yang-22-physics/</link>
+      <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/publications/yang-22-physics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Physics Constrained Dynamics Using Autoencoders</title>
+      <link>http://example.org/publications/yang-22-physics/</link>
+      <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/yang-22-physics/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html><head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents - Karthik Narasimhan&#39;s Lab</title><link rel="icon" type="image/png" href="/images/favicon.ico">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Existing benchmarks for grounding language in interactive environments either lack real-world linguistic elements, or prove difficult to scale up due to substantial human involvement in the collection of data or feedback signals. To bridge this gap, we develop WebShop – a simulated e-commerce website environment with 1.18 million real-world products and 12,087 crowd-sourced text instructions. Given a text instruction specifying a product requirement, an agent needs to navigate multiple types of webpages and issue diverse actions to find, customize, and purchase an item." />
+	<meta property="og:image" content=""/>
+	<meta property="og:title" content="WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents" />
+<meta property="og:description" content="Existing benchmarks for grounding language in interactive environments either lack real-world linguistic elements, or prove difficult to scale up due to substantial human involvement in the collection of data or feedback signals. To bridge this gap, we develop WebShop – a simulated e-commerce website environment with 1.18 million real-world products and 12,087 crowd-sourced text instructions. Given a text instruction specifying a product requirement, an agent needs to navigate multiple types of webpages and issue diverse actions to find, customize, and purchase an item." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/publications/yao-22-webshop/" /><meta property="article:section" content="publications" />
+<meta property="article:published_time" content="2022-07-16T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-07-16T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents"/>
+<meta name="twitter:description" content="Existing benchmarks for grounding language in interactive environments either lack real-world linguistic elements, or prove difficult to scale up due to substantial human involvement in the collection of data or feedback signals. To bridge this gap, we develop WebShop – a simulated e-commerce website environment with 1.18 million real-world products and 12,087 crowd-sourced text instructions. Given a text instruction specifying a product requirement, an agent needs to navigate multiple types of webpages and issue diverse actions to find, customize, and purchase an item."/>
+<script src="http://example.org/js/feather.min.js"></script>
+	
+	
+        <link href="http://example.org/css/fonts.1f07d2398f08441d78602c672fb8cb2a0e9a2395c03b8d547ffbf1c8787e4dc6.css" rel="stylesheet">
+	
+
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="http://example.org/css/main.a7c0f144c33cc899db2a6bf2ed45af562fb88f5e218ca285f11e73d18f555b64.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://example.org/css/dark.2e992fe869b44f61fe1cc8a1ffb970084d2fc4a2bfb9d0f30cece368875edd65.css"  disabled />
+	
+	
+	
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="http://example.org/">Karthik Narasimhan&#39;s Lab</a>
+	</div>
+	<nav>
+		
+		<a href="/posts">All Posts</a>&nbsp;&nbsp;&nbsp;
+		
+		<a href="/publications">Publications</a>&nbsp;&nbsp;&nbsp;
+		
+		<a href="/people">People</a>&nbsp;&nbsp;&nbsp;
+		
+		<a href="/tags">Tags</a>&nbsp;&nbsp;&nbsp;
+		
+		| <a id="dark-mode-toggle" onclick="toggleTheme()" href="">&nbsp;&nbsp;&nbsp;</a>
+		<script src="http://example.org/js/themetoggle.js"></script>
+		
+	</nav>
+</header>
+
+
+<main>
+	<article class="content-box">
+		<div>
+			<h1 style="margin-top:0.5em" class="title" >WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents</h1>
+			<div class="meta">Posted on Jul 16, 2022</div>
+			<div style="padding-top:10px"><span>
+						<a href="https://ysymyth.github.io/"><img class="author-list-photo"
+								src="/images/people/shunyuy.jpeg"
+							/>
+						<span class="author-list-name" margin="0" padding="0">Shunyu Yao</span></a>
+					</span>
+					&nbsp;<span>
+						<a href="https://howard50b.github.io/"><img class="author-list-photo"
+								src="/images/people/hc22.png"
+							/>
+						<span class="author-list-name" margin="0" padding="0">Howard Chen</span></a>
+					</span>
+					&nbsp;<span>
+						<a href="https://john-b-yang.github.io"><img class="author-list-photo"
+								src="/images/people/jy1682.jpg"
+							/>
+						<span class="author-list-name" margin="0" padding="0">John Yang</span></a>
+					</span>
+					&nbsp;<span>
+						<a href="https://www.cs.princeton.edu/~karthikn/"><img class="author-list-photo"
+								src="/images/people/karthikn.jpeg"
+							/>
+						<span class="author-list-name" margin="0" padding="0">Karthik Narasimhan</span></a>
+					</span>
+					&nbsp;</div><div style="padding-top:10px;"><span class="supp-tag">
+					<a href="https://github.com/princeton-nlp/WebShop">GitHub</a>
+				</span>
+				<span class="supp-tag">
+					<a href="https://arxiv.org/abs/2207.01206">Paper</a>
+				</span>
+				<span class="supp-tag">
+					<a href="https://webshop-pnlp.github.io">Site</a>
+				</span></div><div style="padding-top:10px;">
+				
+				<span class="post-tag">
+					<a href="http://example.org//tags/language-grounding/">
+						Language Grounding
+					</a>
+				</span>
+				
+				<span class="post-tag">
+					<a href="http://example.org//tags/rl/">
+						RL
+					</a>
+				</span>
+				
+				<span class="post-tag">
+					<a href="http://example.org//tags/nlp/">
+						NLP
+					</a>
+				</span>
+				
+				<span class="post-tag">
+					<a href="http://example.org//tags/sim-to-real-transfer/">
+						Sim-to-real Transfer
+					</a>
+				</span>
+				
+				<span class="post-tag">
+					<a href="http://example.org//tags/dataset/">
+						Dataset
+					</a>
+				</span>
+				
+				<span class="post-tag">
+					<a href="http://example.org//tags/benchmark/">
+						Benchmark
+					</a>
+				</span>
+				
+			</div>
+			
+		</div>
+		<hr class="post-separator"/>
+		<section class="body post-content">
+			<p>Existing benchmarks for grounding language in interactive environments either lack real-world linguistic elements, or prove difficult to scale up due to substantial human involvement in the collection of data or feedback signals. To bridge this gap, we develop WebShop – a simulated e-commerce website environment with 1.18 million real-world products and 12,087 crowd-sourced text instructions. Given a text instruction specifying a product requirement, an agent needs to navigate multiple types of webpages and issue diverse actions to find, customize, and purchase an item. WebShop provides several challenges for language grounding including understanding compositional instructions, query (re-)formulation, comprehending and acting on noisy text in webpages, and performing strategic exploration. We collect over 1,600 human demonstrations for the task, and train and evaluate a diverse range of agents using reinforcement learning, imitation learning, and pre-trained image and language models. Our best model achieves a task success rate of 29%, which outperforms rule-based heuristics (9.6%) but is far lower than human expert performance (59%). We also analyze agent and human trajectories and ablate various model components to provide insights for developing future agents with stronger language understanding and decision making abilities. Finally, we show that agents trained on WebShop exhibit non-trivial sim-to-real transfer when evaluated on amazon.com, indicating the potential value of WebShop in developing practical web-based agents that can operate in the wild.</p>
+
+		</section>
+	</article>
+	
+	<script
+		type="text/javascript"
+		async
+		src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"
+	>
+	</script>
+</main>
+
+
+
+<script>
+  feather.replace()
+</script></div>
+    </body>
+</html>
