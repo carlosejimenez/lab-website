@@ -6,7 +6,6 @@ post_type: publication
 authors: [hjwang, victorz, karthikn]
 venue: ICML 2021
 tags: []
-direct_link: https://arxiv.org/abs/2101.07393
 
 code: https://github.com/ahjwang/messenger-emma
 link: https://arxiv.org/abs/2101.07393

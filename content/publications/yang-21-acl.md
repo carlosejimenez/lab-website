@@ -6,7 +6,6 @@ post_type: publication
 authors: [runzhey, jingxiaoc, karthikn]
 venue: ACL 2021
 tags: []
-direct_link: https://arxiv.org/abs/2010.09954
 
 code: https://github.com/princeton-nlp/NegotiationToM
 link: https://arxiv.org/abs/2010.09954

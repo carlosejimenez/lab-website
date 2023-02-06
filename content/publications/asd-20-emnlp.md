@@ -6,7 +6,6 @@ post_type: publication
 authors: [asd, karthikn]
 venue: Findings of EMNLP 2020
 tags: []
-direct_link: https://arxiv.org/abs/2010.02399
 
 code: https://github.com/ameet-1997/AttentionGuidance
 link: https://arxiv.org/abs/2010.02399

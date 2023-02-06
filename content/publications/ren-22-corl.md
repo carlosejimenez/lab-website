@@ -6,7 +6,6 @@ post_type: publication
 authors: [allenr, bharatg, jimmyyang, karthikn, anirudhm]
 venue: CoRL 2022
 tags: []
-direct_link: https://arxiv.org/abs/2206.13074
 
 link: https://arxiv.org/abs/2206.13074
 ---

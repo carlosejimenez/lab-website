@@ -6,7 +6,6 @@ post_type: publication
 authors: [sreejank, carlosc, ishitad, rajam, michaelhu, roberth, nathand, karthikn, thomasg]
 venue: NeurIPS 2022
 tags: []
-direct_link: https://arxiv.org/abs/2205.11558
 
 code: https://github.com/sreejank/language_and_programs
 link: https://arxiv.org/abs/2205.11558

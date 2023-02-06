@@ -6,7 +6,6 @@ post_type: publication
 authors: [felixy, zhiweid, karthikn, olgarus]
 venue: CVPR 2020 - Visual Learning with Limited Labels Workshop
 tags: []
-direct_link: https://arxiv.org/abs/2003.14269
 
 link: https://arxiv.org/abs/2003.14269
 ---

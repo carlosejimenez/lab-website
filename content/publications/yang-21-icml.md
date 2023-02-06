@@ -6,7 +6,6 @@ post_type: publication
 authors: [jimmyyang, justinianrosca, karthikn, ramadge]
 venue: ICML 2021
 tags: []
-direct_link: https://arxiv.org/abs/2006.11645
 
 link: https://arxiv.org/abs/2006.11645
 ---

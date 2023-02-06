@@ -6,7 +6,6 @@ post_type: publication
 authors: [shunyuy, moy, yangz, karthikn, joshuat]
 venue: ICLR 2022
 tags: []
-direct_link: https://arxiv.org/abs/2201.01251
 
 code: https://github.com/princeton-nlp/XTX
 link: https://arxiv.org/abs/2201.01251

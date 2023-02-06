@@ -4,7 +4,6 @@
 	<article class="content-box">
 		<div>
 			<h1 style="margin-top:0.5em" class="title" >{{ .Title }}</h1>
-			<div class="meta">Posted on {{ dateFormat "Jan 2, 2006" .Date }}</div>
 			<div style="padding-top:10px">
 				{{- range $index, $author := .Params.authors -}}
 					<span>

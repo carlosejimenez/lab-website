@@ -6,7 +6,6 @@ post_type: publication
 authors: [jimmyyang, andrewl, karthikn]
 venue: Findings of EMNLP 2020
 tags: []
-direct_link: https://arxiv.org/abs/2005.00696
 
 link: https://arxiv.org/abs/2005.00696
 ---

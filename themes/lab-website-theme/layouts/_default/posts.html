@@ -18,11 +18,7 @@
 						{{ .Params.post_type }}
 					</div>
 					<div class="title">
-						{{- if .Params.direct_link -}}
-						<a href="{{ .Params.direct_link }}">{{.Title}} <span class="direct-link-symbol">&#x21F1;</span></a>
-						{{ else }}
 						<a href="{{ .RelPermalink }}">{{.Title}}</a>
-						{{ end }}
 					</div>
 					<time>{{ dateFormat "2006-01-02" .Date }} <!-- Don't change date format -->
 						{{- if .Params.authors -}}&bull;&nbsp;{{ end }}

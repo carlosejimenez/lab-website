@@ -6,7 +6,6 @@ post_type: publication
 authors: [jtuyls, shunyuy, shamk, karthikn]
 venue: NAACL 2022
 tags: []
-direct_link: https://arxiv.org/abs/2201.01251
 
 code: https://github.com/princeton-nlp/XTX
 link: https://arxiv.org/abs/2201.01251

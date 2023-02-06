@@ -68,7 +68,7 @@ params:
     thomasg:
       name: Thomas L. Griffiths
       title: Professor
-      pic: https://psych.princeton.edu/sites/psychology/files/styles/profile_vertical/public/faculty/tom.jpg?itok=ak4eFx-j
+      pic: https://cocosci.princeton.edu/tom/griffiths_0_0.jpg
       link: https://psych.princeton.edu/person/tom-griffiths
     markb:
       name: Mark Braverman
@@ -96,7 +96,7 @@ params:
       pic: https://pni.princeton.edu/sites/default/files/styles/people_directory/public/images/faculty-details/johnathan-cohen.jpg?itok=qDU9onfw
       link: https://pni.princeton.edu/faculty/jonathan-cohen
 
-    # PhD Students
+    # Current Students
     carlosej:
       name: Carlos E. Jimenez
       title: PhD Student
@@ -105,7 +105,7 @@ params:
       github: carlosejimenez
       scholar: https://scholar.google.com/citations?user=Ue4wghAAAAAJ
       twitter: _carlosejimenez
-      interests: "Efficient NLP, Multimodal Learning, Code Generation"
+      interests: "Efficient Pre-Training, Code Generation, Semantic Parsing, Program Synthesis"
     jy1682:
       name: John Yang
       title: MSE Student
@@ -114,7 +114,7 @@ params:
       github: john-b-yang
       scholar: https://scholar.google.com/citations?user=71G11ksAAAAJ
       twitter: jyangballin
-      interests: "Language Interaction, Multimodal Learning, Neurosymbolic Programs, Dialogue Systems"
+      interests: "Language Interaction, Multimodal Learning, Neurosymbolic Programs"
     asd:
       name: Ameet Deshpande
       title: PhD Student
@@ -176,7 +176,7 @@ params:
       github: vmurahari3
       scholar: https://scholar.google.com/citations?user=Y_NYX7MAAAAJ
       twitter: VishvakM
-      interests: ""
+      interests: "LLMs, Efficient Inference, Distillation, "
     
     # Alumni
     jimmyyang:
@@ -186,13 +186,22 @@ params:
       link: https://sites.google.com/view/tyjimmyyang/home?authuser=0
       scholar: https://scholar.google.com/citations?user=g-hQdY8AAAAJ&hl=en&authuser=1
       twitter: JimmyTYYang1
-      interests: ""
+      interests: "Safe Reinforcement Learning, Multi-modal representations"
+      now_at: "Researcher @ Amazon"
     juanduque:
       name: Juan Duque
       title: MSE Student
       pic: juanduque.jpeg
       link: https://www.linkedin.com/in/juan-duque/
       interests: "Reinforcement Learning"
+      now_at: Ph.D. @ MILA
+    michaelhu:
+      name: Michael Hu
+      title: BSE Student
+      pic: https://michahu.github.io/assets/img/IMG_1080.png
+      link: https://michahu.github.io/
+      interests: "Representation Learning, Interpretability"
+      now_at: Ph.D. @ NYU
 
     # Affiliates
     allenr:
@@ -234,10 +243,6 @@ params:
       site: https://scholar.google.com/citations?user=feURfe4AAAAJ&hl=en
     liweis:
       name: Liwei Song
-    michaelhu:
-      name: Michael Hu
-      pic: https://michahu.github.io/assets/img/IMG_1080.png
-      link: https://michahu.github.io/
     matthewh:
       name: Matthew Hausknecht
       pic: https://mhauskn.github.io/assets/img/bio-photo.jpg
@@ -254,7 +259,7 @@ params:
       link: https://www.cs.toronto.edu/~raeidsaqur/
     rajam:
       name: Raja Marjieh
-      pic: https://psych.princeton.edu/sites/psychology/files/styles/psych_profile_listing/public/faculty/RajaMarjieh.jpg?itok=y3iNoWeM
+      pic: https://pbs.twimg.com/profile_images/1209478538795114501/42x3bs27_400x400.jpg
       link: https://psych.princeton.edu/event/raja-marjieh-phd-candidate-princeton-university-0
     roberth:
       name: Robert D. Hawkins
@@ -311,15 +316,19 @@ params:
 
 menu:
   main:
-    - name: All Posts
-      url: /posts
-      weight: 4
+    # NOTE: Leave all posts, may reintroduce if blog posts are created
+    # - name: All Posts
+    #   url: /posts
+    #   weight: 4
     - name: Publications
       url: /publications
       weight: 5
     - name: People
       url: /people
       weight: 6
+    - name: Join
+      url: /join
+      weight: 7
     - name: Tags
       url: /tags
-      weight: 7
+      weight: 8

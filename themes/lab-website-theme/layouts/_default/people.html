@@ -123,6 +123,9 @@
         </a>
         {{ end }}
       </div>
+      <span style="font-size: 0.85em;">
+        Now: {{ ($.Site.Params.Authors.Get $person).now_at }}
+      </span>
     </div>
   {{- if or (eq (mod $index 4) 3) (eq $index (sub (int (len $.Params.people)) 1)) -}}
   </div>

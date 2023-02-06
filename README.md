@@ -80,16 +80,7 @@ code:                  # Link to GitHub Repo
 link:                  # Link to paper
 site:                  # Link to project website
 header_emoji:          # Include to override default "✒️"
-
-# Read more about `direct_link` below
-direct_link: # URL
 ---
 ```
 
-When the publication is clicked on the website, you can decide whether to
-* Go to a post, where you can write a blog-style post about your paper OR
-* Go to an external link of your choice
-
-To do the former, do *not* include the `direct_link` field. You can then write markdown below the metadata as you would with a post.
-
-To do the latter, include the `direct_link` field and assign the value to be a URL. If a reader clicks your publication on the website, they will be directed to the URL specified in `direct_link`.
+When the publication is clicked on the website, a post page will be shown, where you can write a blog-style post about your paper. Please copy + paste your abstract in this section as the bare minimum. You are encouraged to add more content about your paper!

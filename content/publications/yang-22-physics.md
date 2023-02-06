@@ -8,7 +8,6 @@ venue: NeurIPS 2022
 tags: [
   "Language Grounding", "RL", "NLP", "Sim-to-real Transfer", "Dataset", "Benchmark"
 ]
-direct_link: https://openreview.net/forum?id=Rgz_prESe-b
 
 link: https://openreview.net/pdf?id=Rgz_prESe-b
 ---
