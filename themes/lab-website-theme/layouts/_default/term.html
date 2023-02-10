@@ -1,5 +1,15 @@
 {{ define "main" }}
 {{ if isset .Data "Term" }}
+<div class="tag-box">
+	<div style="padding: 0 1em">
+	<p>Tags:</p>
+	{{range $name, $taxonomy := .Site.Taxonomies.tags}} {{ $cnt := .Count }}
+	{{ with $.Site.GetPage (printf "/tags/%s" $name) }}
+		<a class="post-tag" href={{ .RelPermalink }} title="All pages with tag <i>{{$name}}</i>">{{$name}} ({{$cnt}})</a>
+		{{end}}
+	{{end}}
+	</div>
+</div>
 <h1>Posts tagged <i>{{ .Data.Term }}</i></h1>
 {{ else }}
 <h1 class="page-title">All articles</h1>
@@ -21,14 +31,14 @@
 				{{ .Params.post_type }}
 			</div>
 			<div class="title">
-				<a href="{{ .RelPermalink }}">{{.Title}}</a>
+				<a class="hidden-link" href="{{ .RelPermalink }}">{{.Title}}</a>
 			</div>
 			<time>{{ dateFormat "2006-01-02" .Date }} <!-- Don't change date format -->
 				{{- if .Params.authors -}}&bull;&nbsp;{{ end }}
 			</time>
 				{{- range $index, $author := .Params.authors -}}
-					<span>
-						<a href="{{ ($.Site.Params.Authors.Get $author).link }}">
+					<span class="author-list-span">
+						<a class="hidden-link" href="{{ ($.Site.Params.Authors.Get $author).link }}">
 						{{- if ($.Site.Params.Authors.Get $author).pic -}}
 							{{- if in ($.Site.Params.Authors.Get $author).pic "http" -}}
 							<img class="author-list-photo"
@@ -42,7 +52,7 @@
 						{{- else -}}
 						<defaultphoto style="font-size: 0.94em">😊</defaultphoto> <!-- default photo -->
 						{{ end }}
-						<span class="author-list-name" margin="0" padding="0">{{ ($.Site.Params.Authors.Get $author).name }}</span></a>
+						<span margin="0" padding="0">{{ ($.Site.Params.Authors.Get $author).name }}</span></a>
 					</span>
 					&nbsp;
 				{{- end -}}

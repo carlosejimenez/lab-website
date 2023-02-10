@@ -53,6 +53,11 @@ h6 {
 a {
   color: var(--dark-linkcolor);
 }
+
+.hidden-link {
+  color: var(--dark-text-color);
+}
+
 .post-separator {
   border: 1px solid var(--dark-text-color);
 }
@@ -63,6 +68,26 @@ a {
 .tags a:hover {
   background-color: var(--darkMaincolor);
   color: black;
+}
+
+.post-tag {
+  background-color: var(--dark-text-color);
+  color: var(--dark-background-color);
+}
+
+.post-tag:hover {
+  background-color: var(--dark-linkcolor);
+}
+
+.supp-tag {
+  border-radius: 5px;
+  border: 1px solid var(--light-text-color);
+  font-size: 18px;
+  margin-right: 0.5em;
+}
+
+.supp-tag:hover a {
+  color: var(--dark-linkcolor);
 }
 
 .site-title a {

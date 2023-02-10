@@ -2,69 +2,88 @@
 <html>
 	{{ partial "header.html" . }}
 	<body>
-		<div class="content">
-			{{ partial "head.html" . }}
-			
-			<main class="list">
+		<!-- <div class="content">
+		{{ partial "head.html" . }}
+		<div class="tag-box">
+			<p style="padding: 0;">Tags:</p>
+				{{range $name, $taxonomy := .Site.Taxonomies.tags}} {{ $cnt := .Count }}
+				{{ with $.Site.GetPage (printf "/tags/%s" $name) }}
+					<a class="post-tag" href={{ .RelPermalink }} title="All pages with tag <i>{{$name}}</i>">{{$name}} ({{$cnt}})</a>
+				{{end}}
+			{{end}}
+		</div> -->
+		<main class="list">
+			<div class="content">
+				{{ partial "head.html" . }}
+				<div class="tag-box">
+					<div style="padding: 0 1em">
+					<p>Tags:</p>
+					{{range $name, $taxonomy := .Site.Taxonomies.tags}} {{ $cnt := .Count }}
+					{{ with $.Site.GetPage (printf "/tags/%s" $name) }}
+						<a class="post-tag" href={{ .RelPermalink }} title="All pages with tag <i>{{$name}}</i>">{{$name}} ({{$cnt}})</a>
+						{{end}}
+					{{end}}
+					</div>
+				</div>
+				&nbsp;
 				{{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
 				{{ $paginator := .Paginate (and (where $pages "Params.hidden" "ne" true) (where $pages "Params.post_type" "eq" "publication")) }}
 				{{ range $paginator.Pages }}
 				<section class="list-item">
 					<div style="display:flex;align-items:center;flex-direction:row;">
-						{{- if .Params.image -}}
-						<img
-							src="{{ .Params.image }}"
-							style="inset:2em;max-width:33%"
-						>
-						{{- else -}}
-						<img
-							src="/images/default-post-img.png"
-							style="inset:2em;max-width:33%"
-						>
-						{{- end -}}
+						<a href="{{ .RelPermalink }}" style="inset:2em;max-width:33%">
+							{{- if .Params.image -}}
+							<img src="{{ .Params.image }}">
+							{{- else -}}
+							<img src="/images/people/hjwang.png">
+							{{- end -}}
+						</a>
 						<div style="flex-direction:column;padding-left:1em;">
 							<div class="title">
-								<a href="{{ .RelPermalink }}">{{.Title}}</a>
+								<a class="hidden-link" href="{{ .RelPermalink }}">{{.Title}}</a>
 							</div>
 							<!-- <time>{{ dateFormat "2006-01-02" .Date }}
 								{{- if .Params.authors -}}&bull;&nbsp;{{ end }}
 							</time> -->
-							{{- range $index, $author := .Params.authors -}}
-							<span>
-								<a href="{{ ($.Site.Params.Authors.Get $author).link }}">
-									{{- if ($.Site.Params.Authors.Get $author).pic -}}
-										{{- if in ($.Site.Params.Authors.Get $author).pic "http" -}}
-										<img class="author-list-photo"
-											src="{{ ($.Site.Params.Authors.Get $author).pic }}"
-										/>
+							<div style="line-height:1.4">
+								{{- range $index, $author := .Params.authors -}}
+								<span class="author-list-span">
+									<a class="hidden-link" href="{{ ($.Site.Params.Authors.Get $author).link }}">
+										{{- if ($.Site.Params.Authors.Get $author).pic -}}
+											{{- if in ($.Site.Params.Authors.Get $author).pic "http" -}}
+											<img class="author-list-photo"
+												src="{{ ($.Site.Params.Authors.Get $author).pic }}"
+											/>
+											{{- else -}}
+											<img class="author-list-photo"
+												src="/images/people/{{ ($.Site.Params.Authors.Get $author).pic }}"
+											/>
+											{{- end -}}
 										{{- else -}}
-										<img class="author-list-photo"
-											src="/images/people/{{ ($.Site.Params.Authors.Get $author).pic }}"
-										/>
-										{{- end -}}
-									{{- else -}}
-									<defaultphoto style="font-size: 0.94em">😊</defaultphoto> <!-- default photo -->
-									{{ end }}
-									<span class="author-list-name" margin="0" padding="0">{{ ($.Site.Params.Authors.Get $author).name }}</span>
-								</a>
-							</span>
-							&nbsp;
+										<defaultphoto style="font-size: 0.94em">😊</defaultphoto> <!-- default photo -->
+										{{ end }}
+										<span margin="0" padding="0">{{ ($.Site.Params.Authors.Get $author).name }}</span>
+									</a>
+								</span>
+								&nbsp;
+								<!-- DON'T REMOVE THIS COMMENT (DARK MAGIC AT WORK by CJ and JY) -->
 							{{- end -}}
+							</div>
 							{{- if (or .Params.code .Params.link .Params.site) -}}
 							<div style="padding: 10px 0px;">
 								{{- if .Params.code -}}
 								<span class="supp-tag">
-									<a href="{{ .Params.code }}">GitHub</a>
+									<a class="hidden-link" href="{{ .Params.code }}">GitHub</a>
 								</span>
 								{{ end }}
 								{{- if .Params.link -}}
 								<span class="supp-tag">
-									<a href="{{ .Params.link }}">Paper</a>
+									<a class="hidden-link" href="{{ .Params.link }}">Paper</a>
 								</span>
 								{{ end }}
 								{{- if .Params.site -}}
 								<span class="supp-tag">
-									<a href="{{ .Params.site }}">Site</a>
+									<a class="hidden-link" href="{{ .Params.site }}">Site</a>
 								</span>
 								{{- end -}}
 							</div>

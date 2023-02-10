@@ -3,7 +3,7 @@
 <ul class="pagination">
 	<span class="page-item page-prev">
 	{{ if $pag.HasPrev }}
-    <a {{ if $pag.HasPrev }}href="{{ $pag.Prev.URL }}"{{ end }} class="page-link" aria-label="Previous"><span aria-hidden="true">← Prev</span></a>
+    <a class="hidden-link" {{ if $pag.HasPrev }}href="{{ $pag.Prev.URL }}"{{ end }} class="page-link" aria-label="Previous"><span aria-hidden="true">← Prev</span></a>
 	{{ end }}
 	</span>
 	{{ if and $pag.HasPrev $pag.HasNext}}
@@ -11,7 +11,7 @@
 	{{ end }}
 	<span class="page-item page-next">
 	{{ if $pag.HasNext }}
-    <a {{ if $pag.HasNext }}href="{{ $pag.Next.URL }}"{{ end }} class="page-link" aria-label="Next"><span aria-hidden="true">Next →</span></a>
+    <a class="hidden-link" {{ if $pag.HasNext }}href="{{ $pag.Next.URL }}"{{ end }} class="page-link" aria-label="Next"><span aria-hidden="true">Next →</span></a>
 	{{ end }}
 	</span>
 </ul>

@@ -329,6 +329,6 @@ menu:
     - name: Join
       url: /join
       weight: 7
-    - name: Tags
-      url: /tags
-      weight: 8
+    # - name: Tags
+    #   url: /tags
+    #   weight: 8
