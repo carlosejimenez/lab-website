@@ -474,3 +474,27 @@ table td{
   display: inline-block;
   font-size: 90%;
 }
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.slideshow-img {
+  display: none;
+  max-height: inherit;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 0.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

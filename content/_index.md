@@ -1,3 +1,14 @@
+---
+images:
+    [
+        "20230201.jpg",
+        "20220909.png",
+        "20220724-3.jpg",
+        "20220724-2.jpg",
+        "20220724.jpg",
+        "20211121.jpg",
+    ]
+---
 ### News
 
 * 2022/11: Congrats to Vishvak Murahari, Carlos Jimenez, and Runzhe Yang for winning [2nd Place in the 2022 Nokia Bell Labs Prize](https://www.cs.princeton.edu/news/small-neural-nets-are-trending-research-shows-density-may-be-answer)!
@@ -9,6 +20,3 @@
 
 ### About Us
 We work on methods for machine understanding of language, in order to both make intelligent decisions and communicate effectively with people. Our lab's research spans natural language processing (NLP), reinforcement learning, deep learning, and machine learning.
-
-
-![Group Photo](/images/group.jpeg)

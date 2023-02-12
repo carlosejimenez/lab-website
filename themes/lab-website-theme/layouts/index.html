@@ -2,6 +2,34 @@
 <main>
   <div class="content-box">
     {{ .Content }}
+
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+      <!-- Full-width images with number and caption text -->
+      {{ range .Params.images }}
+        <div class="slideshow-img fade">
+          <img src="/images/slideshow/{{ . }}">
+        </div>
+      {{ end }}
+    </div>
+
+    <br>
   </div>
 </main>
+<script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("slideshow-img");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 5000); // Change image every 5 seconds
+  }
+</script>
 {{ end }}
